@@ -4,12 +4,12 @@
 \include "score_settings/full-score.ly"
 
 \paper {
-  top-system-spacing.basic-distance = #10
-  top-system-spacing.minimum-distance = #10
+  top-system-spacing.basic-distance = #12
+  top-system-spacing.minimum-distance = #12
   top-markup-spacing.basic-distance = #0
   top-markup-spacing.minimum-distance = #0
-  markup-system-spacing.basic-distance = #10
-  markup-system-spacing.minimum-distance = #10
+  markup-system-spacing.basic-distance = #12
+  markup-system-spacing.minimum-distance = #12
 }
 
 \book {
@@ -19,7 +19,7 @@
     \paper { indent = 3\cm }
     \score { %\articulate
       <<
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff \with { \smallStaffDistance } {
             \set Staff.instrumentName = "Flauto"
             \DixitFlauto
@@ -28,10 +28,12 @@
             \set GrandStaff.instrumentName = \transposedName "Clarinetto" "B" "flat"
             \new Staff {
               \set Staff.instrumentName = "I"
+              % \transpose c b,
               \DixitClarinettoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
+              % \transpose c b,
               \DixitClarinettoII
             }
           >>
@@ -40,7 +42,7 @@
             \DixitFagotto
           }
         >>
-        \new StaffGroup <<
+        \new StaffGroup \with { \smallGroupDistance } <<
           \new Staff <<
             \set Staff.instrumentName = \transposedName "Corno I, II" "B" "flat"
             % \transpose c b,
@@ -52,7 +54,7 @@
             \partCombine #'(0 . 10) \DixitClarinoI \DixitClarinoII
           >>
         >>
-        \new Staff {
+        \new Staff \with { \smallStaffDistance } {
           \set Staff.instrumentName = \transposedTimp "B" "flat" "F" ""
           % \transpose c b,
           \DixitTimpani
@@ -109,7 +111,7 @@
         \new FiguredBass { \DixitBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 90 } % 120
     }
   }
 }
