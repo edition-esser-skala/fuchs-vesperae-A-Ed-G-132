@@ -79,3 +79,98 @@ DixitFagotto = {
     b, r r2\fermata \bar "|." %86 finis
   }
 }
+
+LaudateFagotto = {
+  \relative c {
+    \clef bass
+    \key g \major \time 3/4 \tempoLaudate
+    g'4\f g r
+    g, h c
+    h g g'
+    d r8 d fis d
+    g4 g8 d h g %5
+    c4 c' c
+    h h h
+    fis2 fis4
+    g g g
+    c2 c4 %10
+    h h g
+    fis2 g8 c,
+    d4 d d
+    d d r
+    d d r %15
+    a'2 a4
+    d, d r
+    a' a a
+    h2.
+    gis8 e gis e gis e %20
+    a4 a r
+    a, h cis
+    d d r
+    d fis d
+    g e g %25
+    a2 a4
+    d,2 d'4
+    cis2 cis4
+    R2.*5 %33
+    g4 a a
+    d, r r %35
+    g8 fis e d cis h
+    a4 \once \slurDashed cis(\p d)
+    g,\fpE gis r
+    a2 a'4
+    d, r r %40
+    R2.*12 %52
+    r8 g4\f fis8 e d
+    c h a g fis e
+    d4 fis'(\p g) %55
+    c,\fpE cis r
+    d2 d4
+    g, r g'\f
+    d2 d4
+    g g g %60
+    g2 f4
+    e2.
+    a4 a a
+    e e r
+    e8 r h r gis r %65
+    e4 e' d
+    c a a'
+    g!2.
+    c
+    f, %70
+    fis
+    g2 g4
+    c,8 c'4\fz h8 a g
+    f e d c h a
+    g4 r r
+    R2.*14 %89
+    g'4\fE g, r %90
+    g' h g
+    d2 d4
+    g2 g4
+    d r d
+    g r r %95
+    r8 c, e g c c
+    h2 h,4
+    r8 c e g c c
+    h2 h4
+    e,2 e4 %100
+    a a a
+    d,2 d4
+    g! r r
+    c, d d
+    h2 h4 %105
+    c d d
+    g r r
+    R2.*5 %112
+    h,4 g' c,
+    d d d
+    g r r %115
+    g c, d
+    g r r
+    g8 g c, c d d
+    g4 r d
+    g r r\fermata \bar "|." %120 finis
+  }
+}

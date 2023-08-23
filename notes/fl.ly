@@ -70,3 +70,96 @@ DixitFlauto = {
     b r r2\fermata \bar "|." %86 finis
   }
 }
+
+LaudateFlauto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoLaudate
+    g''2\f r4
+    d'8([ h g d)] fis g16 a
+    g8 h d4 d
+    d d, c'
+    c16 d c d h4 r %5
+    e2 d4
+    d2.
+    d4. fis8 d c
+    c4 h8 g16 a h8 d
+    e4 e e8 d %10
+    d2 d4
+    d4. c8 h c
+    h4 a8 a fis fis
+    d2.~
+    d %15
+    e4 g cis~
+    cis d r
+    R2.
+    r4 d d
+    d r r %20
+    r8 cis e d cis h
+    h4 a g
+    fis r r
+    R2.*9 %32
+    r4 d' d
+    h a2
+    d,8 d'4\fzE cis8 h a %35
+    R2.
+    r4 \once \slurDashed g(\p fis)
+    \once \slurDashed h4.(\fp^\critnote cis8) d4
+    R2.*15 %53
+    c8\fE h a g fis e
+    d4 r r %55
+    R2.*2
+    r4 r g~\f
+    g fis a
+    a g8 g g g %60
+    g4 h d
+    d h e
+    e2.
+    e,4 e8 e gis h
+    e4 e e %65
+    e2.
+    e4 e e
+    d2.
+    c
+    r4 a a %70
+    a c2
+    g2.
+    e!4 r r
+    f'8 e d c h a
+    g4 r r %75
+    \once \slurDashed a4.(\fp h8) c4
+    e,4. f8 d4
+    c r r
+    R2.*4 %82
+    d2\p fis!4
+    fis g r
+    R2.*5 %89
+    g2\f r4 %90
+    d'2.~
+    d4 d d
+    d r r
+    d2.
+    h4 r r %95
+    r g g
+    g d r
+    r g g
+    d r r
+    gis2 h4 %100
+    a a a
+    a fis d
+    h'8 h16 c d8 h g!4
+    r d' d
+    d r r %105
+    r d d
+    g, r r
+    R2.*5 %112
+    g2.
+    g8 h d4 fis,
+    g r r %115
+    h a d
+    h r r
+    h8 h a a d d
+    g,4 r fis^\critnote
+    g r r\fermata \bar "|." %120 finis
+  }
+}

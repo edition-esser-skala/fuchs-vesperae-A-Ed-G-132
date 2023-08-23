@@ -72,3 +72,103 @@ DixitClarinettoII = {
     e r r2\fermata \bar "|." %86 finis
   }
 }
+
+LaudateClarinettoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoLaudate
+    h'2.\f
+    h4 d a
+    h d d
+    a c c
+    a g g %5
+    g2 a4
+    g g g
+    a2.
+    a4 g h
+    c2 c8 a %10
+    g2 h4
+    d4. c8 h c
+    h4 a a
+    a2.
+    a %15
+    cis2 e4
+    e d r
+    cis2 e4
+    d d d
+    d2. %20
+    cis4 r r
+    R2.
+    d
+    d4 d d
+    h2. %25
+    cis2 e4
+    d2.
+    e
+    R2.*4 %32
+    a,4 a2
+    g4 fis e
+    fis r r %35
+    g'8 fis e d cis h
+    a4 \once \slurDashed e'(\p d)
+    R2.
+    d4. e8 cis4
+    d r r %40
+    R2.*12 %52
+    r8 g4\f fis8 e d
+    c h a g fis e
+    d4 \once \slurDashed a'(\p g) %55
+    g2.\fpE
+    g4. a8 fis4
+    g r \once \slurDashed h~\f
+    h a c
+    c h8 h h h %60
+    h2 a4
+    gis2.
+    a4 c c
+    c h r
+    e, e e %65
+    e2.
+    e4 e e
+    d'2.
+    c
+    r4 a a %70
+    a2.
+    c2 h4
+    c r r
+    f8 e d c h a
+    g4 r r %75
+    R2.*6 %81
+    r4 r h~\p
+    h a c
+    c h r
+    R2.*5 %89
+    h2\fE r4 %90
+    h2.
+    a4 c c
+    h2.
+    c
+    h4 r r %95
+    g2.
+    g4 g g
+    g2.
+    g4 g g
+    h2. %100
+    a4 c c
+    c a a
+    g r r
+    r h a
+    g2. %105
+    r4 h a
+    h r r
+    R2.*5 %112
+    g2.
+    h4 h a
+    h r r %115
+    h c a
+    h r r
+    h8 h c c a a
+    h4 r a
+    h r r\fermata \bar "|." %120 finis
+  }
+}

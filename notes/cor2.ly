@@ -63,3 +63,87 @@ DixitCornoII = {
     e r r2\fermata \bar "|." %86 finis
   }
 }
+
+LaudateCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoLaudate
+    e2\f r4
+    g2 g4~
+    g e e
+    g2 g4~
+    g e8 e e e %5
+    c'2 d4
+    c c r
+    g2 g4
+    g g r
+    c c c8 d %10
+    c4 c c
+    g2 c8 d
+    g,4 g r
+    g2.
+    g %15
+    r4 d' d
+    d2 r4
+    r d d
+    g, r r
+    R2.*3 %22
+    g2.
+    g4 g g
+    c r c %25
+    d r d
+    d2.
+    d4 d d
+    R2.*4 %32
+    r4 g, g
+    c d d
+    g, r r %35
+    R2.*2
+    g2\fp r4
+    R2.*14 %52
+    r8 c,4\f r8 r4
+    R2.*2 %55
+    c2\fp r4
+    R2.
+    e4\f r e
+    e g g
+    g e8 e e e %60
+    e4 r r
+    R2.*6 %67
+    c2.
+    c4 c c
+    R2.*2 %71
+    c2.
+    c4 r r
+    R2.*9 %82
+    g2.\p
+    g4 g r
+    R2.*5 %89
+    e'2\f r4 %90
+    e2.
+    g4 g g
+    e r r
+    g r g
+    e r r %95
+    c c8 c c c
+    c2 r4
+    r8 c c c c c
+    c4 r r
+    R2.*2 %101
+    g'2 g4
+    e r c
+    c g' g
+    g2 c,4~ %105
+    c g' g
+    e r r
+    R2.*5 %112
+    c4 c c
+    e2 g4
+    e r r %115
+    e r g
+    e e g
+    e r g
+    e r g
+    e r r\fermata \bar "|." %120 finis
+  }
+}

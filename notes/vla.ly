@@ -92,3 +92,130 @@ DixitViola = {
     f r r2\fermata \bar "|." %86 finis
   }
 }
+
+LaudateViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 3/4 \tempoLaudate
+    g'4\f g, r
+    d'2 d4
+    d2.~
+    d2 d4
+    d g8 d h g %5
+    g'4 g fis8 a
+    g4 g r
+    d2 d4
+    d g8 d h g
+    c c' c c c c %10
+    h4 g r
+    d2~ d8 e
+    d4 d r
+    d8 d, d'4 r
+    d8 d, d'4 r %15
+    a a' a,
+    d d, r
+    a' a' a,
+    h8 h h h h h
+    h'2 h4 %20
+    a a, r
+    a8 a h h cis cis
+    d4 d, r
+    d' fis d
+    g e^\critnote g %25
+    a r8 a, cis a
+    d d d d d d
+    e e e e e e
+    d d d d d d
+    h' h h h h h %30
+    a4 a, a
+    d d, r
+    r16 d' e fis g a h cis d8 d,
+    h'8 h a a a, a
+    d d'4\fz cis8 h a %35
+    g fis e d cis h
+    a4 a\pE a
+    g\fp gis r
+    a2 g4
+    fis r fis %40
+    a2.
+    a2 a4
+    a a16 a\f h cis d e fis gis
+    a4 r r
+    r8 cis,\p cis cis cis cis %45
+    r h h h h h
+    r cis r e r e
+    r cis cis cis d d
+    r a a a a a
+    r g'^\critnote r fis r g %50
+    r c, c c c c
+    r4 d2
+    h8 g'4\f fis8 e d
+    c h a g fis e
+    d4 d'\p d %55
+    c\fp cis r
+    d2 c4
+    h\f h h
+    d d, d'
+    d d r %60
+    g8 g g g f f
+    e e, r e' gis e
+    a a, c e a a,
+    e'4 e r
+    e8 gis h, e gis, h %65
+    e,4 e' d
+    c a a'
+    h8 h h h h h
+    c g! g g g g
+    f f f f f f %70
+    a4 a2
+    g8 g g g g g
+    c, c'4\fz h8 a g
+    f e d c h a
+    g4 g\pE g %75
+    f\fpE fis r
+    g2 f4
+    e r r
+    c r r
+    c r r %80
+    c r c'(
+    d) r d~
+    d2 d4~
+    d d r
+    r8 d d d d d %85
+    r d d d d d
+    d4 d h
+    c r e(
+    d) d r
+    g\f g, r %90
+    g h g
+    d' r d
+    g r8 g, h g
+    d'4 r d
+    g r8 d h g %95
+    c c e g c c,
+    h h h h h h
+    c c e g c c,
+    h4 g g
+    e' r8 e4 e8 %100
+    e2 c4
+    c2 a'4
+    g g8 g g g
+    c, c d d d d
+    d d d d d d %105
+    c c d d d d
+    h4 r r
+    R2.
+    r4 r8 c d c
+    h4 r r %110
+    r8 a d c! h4
+    c r r
+    r d c8 e
+    d d d d d d
+    d4 g a %115
+    g e d
+    d d d
+    d8 d e e d d
+    d4 r d
+    d r r\fermata \bar "|." %120 finis
+  }
+}

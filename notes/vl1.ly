@@ -88,3 +88,130 @@ DixitViolinoI = {
     <b d, f,> r r2\fermata \bar "|." %86 finis
   }
 }
+
+LaudateViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \tempoLaudate
+    <h' g'>8[\f \appoggiatura { a'16[ g fis] } g8] h([ d, g h,)]
+    d[ h g d] fis g16 a
+    g8( h d g h g)
+    fis16( a fis d) c4 c~
+    c16 d c d h8 g16 h d8 g %5
+    e g, c e a fis
+    g d h' g d h
+    c a'4 fis8 d c
+    c4 h8 g16 a h8 d
+    e g,16 c e8 c e16 g fis a %10
+    g fis g a h8 g d h
+    d a d c h c
+    h4 a8 \once \slurDashed d,( fis a)
+    d4 r8 \once \slurDashed fis,( a d)
+    fis4 r16 a h a g fis e d %15
+    cis8 e g cis, e g,
+    g16( a g a) fis a' h a g fis e d
+    cis8 e g cis, e g,
+    fis d' d d d d
+    d h'4 d,8 e d %20
+    cis cis e( d cis h)
+    h4( a g)
+    fis8( a d a fis' d)
+    a'( fis d a d fis)
+    \once \slurDashed e( h h' g e h) %25
+    cis16 d cis d e8 cis a g'
+    fis16( g fis g) a8 fis d a
+    a'16 h a h a8 e cis a
+    d16 e d e fis8 d fis d
+    h' h16 cis d cis h a gis fis e d %30
+    cis8 e16 fis g fis e d cis h a g
+    fis d e fis g a h cis d e fis g
+    a4 <fis a, d,> q
+    e16 h g' e d( fis a d) e,8 cis'
+    d, d'4\fz cis8 h16 cis a h %35
+    g a fis g e fis d e cis d h cis
+    a4 g(\p fis)
+    h4.(\fp cis8) d4
+    fis,4. g8 e4
+    d r d %40
+    fis2( e4)
+    a( g fis)
+    fis e16 a\f h cis d e fis gis
+    a4 r r
+    r8 fis,\p fis fis fis fis %45
+    r fis fis fis fis fis
+    r g r e r a
+    r g g g fis fis
+    r fis fis fis fis fis
+    r d' r c! r h %50
+    r a a a a a
+    r g( h g a fis)
+    g g'4\f fis8 e16 fis d e
+    c d h c a h g a fis g e fis
+    d4 c'(\p h) %55
+    e4.(\fp fis8) g4
+    h,4. c8 a4
+    g16\f d h d g8 h d g
+    h, d c a a' c,
+    c16 d c d h d g h d8 h %60
+    g h h, d a d
+    gis, h' gis e d e
+    c a'4 e c8~
+    c16 e d c h8 e gis, h
+    e, gis h, e gis, h %65
+    e gis h e gis, e'
+    e, a c e c a
+    f' d'4 h f8
+    e c'4 g e8
+    a16( h a gis) a8 a, a' a, %70
+    c'4 c,2
+    c16 c c c c c c c h h h h
+    c8 c'4\fz h8 a16 h g a
+    f g e f d e c d h c a h
+    g4 f(\p e) %75
+    a4.(\fp h8) c4
+    e,4. f8 d4
+    c r r
+    r8 e( f g a b)
+    r a gis a f g %80
+    e e g( e) g g
+    r d g( d) g h
+    h4 a c
+    c h16 g\fE a h c d e fis
+    g8 d\p d d d d %85
+    r d d d c c
+    c4 h d
+    e( fis g)
+    h, a r
+    <h g'>8[\f \appoggiatura { a'16[ g fis] } g8] h[ d, g h,] %90
+    d[ h g d] g a16 h
+    c8 fis, a c, fis a,
+    h d g h d g
+    c, fis, a c, fis a,
+    h d g h d g %95
+    e4 <e c g> q
+    d8 e16 fis g a h c d h g fis
+    e4 <e c g> q
+    r16 d e fis g a h c d h g d
+    r8 gis( h gis e d) %100
+    r c16 d e8 c a a
+    r fis' a fis d c
+    r h16 c d8 h g! g'
+    e16( g e c) h4 a
+    d8 e16 fis g a h c d( h g fis) %105
+    e g e c h8 d c a
+    g h e d cis4
+    d8 a d c h4
+    c c8 h a4
+    h4. h8 cis cis %110
+    d4 d, d'
+    c!8 e, c' h a4
+    d8 g h, g' e c
+    h d g h d fis,
+    g4 d d %115
+    d8 g e8 c' fis, a
+    g4 d d
+    d8 g e c' fis, a
+    g4 r <fis a, d,>
+    <g h, d,> r r\fermata \bar "|." %120 finis
+  }
+}

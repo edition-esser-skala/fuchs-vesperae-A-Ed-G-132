@@ -63,3 +63,87 @@ DixitCornoI = {
     c r r2\fermata \bar "|." %86 finis
   }
 }
+
+LaudateCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoLaudate
+    c'2\f r4
+    \pa g2 g4~
+    g \pd c c
+    \pa g2 g4~
+    g \pd c8 c c c %5
+    \pa c2 d4
+    c c \pd r
+    d2 d4
+    \pa g, g \pd r
+    \pa c c c8 d %10
+    c4 c c \pd
+    d2 \pa c8 d
+    g,4 g \pd r
+    \pa g2.
+    g \pd %15
+    r4 \pa d' d
+    d2 \pd r4
+    r \pa d d \pd
+    g r r
+    R2.*3 %22
+    d2.
+    d4 d d
+    e r e %25
+    \pao d r \pa d
+    d2.
+    d4 d d \pd
+    R2.*4 %32
+    r4 d d
+    e \pa d d \pd
+    d r r
+    R2.*2
+    \pao g,2\fp r4
+    R2.*14 %52
+    r8 c4\f r8 r4
+    R2.*2 %55
+    c2\fp r4
+    R2.
+    c4\f r c
+    c d d
+    d c8 c c c %60
+    c4 r r
+    R2.*6 %67
+    c2.
+    c4 c c
+    R2.*2 %71
+    c2.
+    c4 r r
+    R2.*9 %82
+    g2.\p
+    g4 g r
+    R2.*5 %89
+    c2\f r4 %90
+    c2.
+    d4 d d
+    c r r
+    d r d
+    c r r %95
+    c c8 c c c
+    c2 r4
+    r8 c c c c c
+    c4 r r
+    R2.*2 %101
+    d2 d4
+    c r c
+    c \pa g g
+    g2 \pd c4~ %105
+    c \pa g g \pd
+    c r r
+    R2.*5 %112
+    c4 c c
+    c2 d4
+    c r r %115
+    c r d
+    c c d
+    c r d
+    c r d
+    c r r\fermata \bar "|." %120 finis
+  }
+}

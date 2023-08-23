@@ -144,3 +144,205 @@ DixitSopranoLyrics = \lyricmode {
   a -- men, a -- %85
   men. %86 finis
 }
+
+LaudateSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 3/4 \autoBeamOff \tempoLaudate
+    \mvTr g'4\f^\tutti g g
+    h4. h8 a4
+    g8. g16 g4 h
+    a4. a8 d c
+    c8. c16 h4 h %5
+    e2 fis4
+    g4. d8 d4
+    c2 c4
+    c h r
+    e e e8 fis %10
+    g4 d d
+    d4.( c8) h c
+    h8. h16 a4 r
+    a a a
+    a2 d4 %15
+    cis e g,8 g
+    g4 fis r
+    r cis'2
+    d4. d8 d4
+    d2 d4 %20
+    cis e8[ d cis h]
+    h4 a g
+    fis d'2
+    fis4 fis fis
+    e e e8 e %25
+    e2 e4
+    fis2 fis4
+    e8. e16 e4 e
+    d2 d4
+    d d d %30
+    cis2 e4
+    fis2 fis4
+    fis4. fis8 fis4
+    e8 e16 e d4( cis)
+    d r r %35
+    R2.*22 %57
+    \mvTr h4.\fE^\tutti h8 h4
+    h a c
+    c8. c16 h4 r %60
+    r h d
+    d4. d8 d4
+    c4. c8 c4
+    c8. c16 h4 r
+    r r h %65
+    gis4. gis8 gis4
+    a a c8 c
+    d4. d8 d4
+    r e e
+    d4. d8 d4 %70
+    c2 c8 c
+    c2( h4)
+    c r r
+    R2.*4 %77
+    \mvTr c4\pE^\solo c c
+    c2.~
+    c2 h4 %80
+    c e, g
+    g d h'
+    h a c
+    c h r
+    r d2~ %85
+    d4 a d8 c
+    c4 h d8 d
+    e4 fis g
+    h, a r
+    R2. %90
+    \mvTr g4.\fE^\tutti g8 g4
+    a a a
+    h4. h8 h4
+    c8. c16 c4 c8 c
+    h4 h h8 h %95
+    e4 e e8 e
+    d8. d16 d8 d d d
+    e4 e e8 e
+    d4. d8 d4
+    d4. d8 d d %100
+    c4 c c8 c
+    c4 c8 c c c
+    h4 h g'(
+    e8) c h4( a)
+    d r g( %105
+    e8) c h4( a)
+    g8 h([ e d] cis4)
+    d8 a([ d c] h4)
+    c c8([ h)] a4
+    h2 cis4 %110
+    d2.
+    c!8 e,[( c' h] a4)
+    d h e
+    g,2( a4)
+    g r r %115
+    h( c a)
+    h r r
+    h( c a)
+    g r a
+    h r r\fermata \bar "|." %120 finis
+  }
+}
+
+LaudateSopranoLyrics = \lyricmode {
+  Lau -- da -- te
+  pu -- e -- ri
+  Do -- mi -- num, lau --
+  da -- te no -- men
+  Do -- mi -- ni, sit %5
+  no -- men
+  Do -- mi -- ni
+  be -- ne --
+  di -- ctum,
+  ex hoc nunc et %10
+  us -- que, et
+  us -- que in
+  sae -- cu -- lum.
+  A so -- lis
+  or -- tu %15
+  us -- que ad oc --
+  ca -- sum,
+  lau --
+  da -- bi -- le
+  no -- men %20
+  Do -- _
+  _ _ mi --
+  ni. Ex --
+  cel -- sus, ex --
+  cel -- sus su -- per %25
+  o -- mnes
+  gen -- tes
+  Do -- mi -- nus, et
+  su -- per
+  coe -- los, et %30
+  su -- per
+  coe -- los
+  glo -- ri -- a,
+  glo -- ri -- a e --
+  ius. %35
+
+  Su -- sci -- tans %58
+  a ter -- ra
+  in -- o -- pem, %60
+  et de
+  ster -- co -- re
+  e -- ri -- gens
+  pau -- pe -- rem.
+  Ut %65
+  col -- lo -- cet
+  e -- um cum prin --
+  ci -- pi -- bus,
+  cum prin --
+  ci -- pi -- bus %70
+  po -- pu -- li
+  su --
+  i.
+
+  Qui ha -- bi -- %78
+  ta --
+  re %80
+  fa -- cit ste --
+  ri -- lem, ste --
+  ri -- lem in
+  do -- mo,
+  ma -- %85
+  trem fi -- li --
+  o -- rum, fi -- li --
+  o -- rum lae --
+  tan -- tem.
+  %90
+  Glo -- ri -- a
+  Pa -- tri et
+  Fi -- li -- o
+  et Spi -- ri -- tu -- i
+  San -- cto, si -- cut %95
+  e -- rat in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in
+  sae -- cu -- la
+  sae -- cu -- lo -- rum, %100
+  a -- men, et in
+  sae -- cu -- la sae -- cu --
+  lo -- rum, a --
+  men, a --
+  men, a -- %105
+  men, a --
+  men, a --
+  men, a --
+  men, a -- men,
+  a -- men, %110
+  a --
+  men, a --
+  \xE men, a -- \x men,
+  a --
+  men, %115
+  a --
+  men,
+  a --
+  men, a --
+  men. %120 finis
+}
