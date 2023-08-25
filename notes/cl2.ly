@@ -172,3 +172,67 @@ LaudateClarinettoII = {
     h r r\fermata \bar "|." %120 finis
   }
 }
+
+LaetatusClarinettoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoLaetatus
+    \partial 4 r4 r2 r8 b'4\fz g8\p
+    f r r4 r2
+    R1
+    r2 r4 r8 c'
+    d4 c8 f f4 e %5
+    f8\f d16 b c8^\critnote b a c a f
+    g4 b a2
+    r4 b8 b a4. f8
+    a8. g16 g8 b b8. a16 a8 r
+    e4 c'4. c8 c c %10
+    c4 h8. d16 d8. c16 c8 c
+    c g4 g8 g4 g8 g
+    g4 g8 g e'4 d
+    r2 r8 d\pE e d
+    cis a\f a a a b a g %15
+    f4 d'8 d e4 d
+    r2 d4 d8 d
+    r2 d4 d8 d
+    e4 g, a a~
+    a8 a a a b4\p a %20
+    a g c2~\f
+    c8 b b b a4 a
+    c c8 c b4 r
+    R1*2 %25
+    r2 r8 b\pE c b
+    a f4\f f8 f r r4
+    R1*3 %30
+    r2 r8 c'\pE e f
+    e4 r r2
+    R1*2
+    a,2.\p f4 %35
+    r2 r8 c' d c
+    h e4\f e8 e r r4
+    R1*2
+    r2 h\p %40
+    c r
+    r4 r8 c\f c4 r
+    R1
+    r2 b!\p
+    a4 r r2 %45
+    r8 c d c h h\f c d
+    c r r4 r2
+    r4 a2\p a4
+    b!2 d
+    c r %50
+    R1
+    r8 g4\f g8 g4 g
+    a8 a4 a8 a4 f'
+    e2 d
+    d c %55
+    r4 d c8 e, f d
+    e c' h b a4 r
+    R1*4 %61
+    r4 g a r
+    r8 f' f e f4 r
+    r8 f f e f4 e
+    f r r2\fermata \bar "|." %65 finis
+  }
+}

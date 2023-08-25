@@ -147,3 +147,66 @@ LaudateCornoII = {
     e r r\fermata \bar "|." %120 finis
   }
 }
+
+LaetatusCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoLaetatus
+    \partial 4 r4 r2 r8 g'4\fz g8\pE
+    c r r4 r2
+    R1*2
+    r4 r8 c c4 g %5
+    r2 r8 g'\f e c
+    g4 g8 g g2
+    g4 g8 g c e,4 c'8
+    c8. g16 g8 r r2
+    g4 g8 g g g16. g32 g8 g %10
+    c e_\critnote d d d4 d8 g,16. g32
+    g4 g8 g d'4 d8 d
+    d4 d8 d e4 e8 e
+    r2 r8 e,4\p e8~
+    e e16.\f e32 e8 e e r e e %15
+    e e16. e32 e8 e e4 e8 e
+    r4 e8 e e e4 e8
+    e e16. e32 e8 e e r e e
+    g4 g8 g c4 c~
+    c8 c c c d4\p c %20
+    c g g\f r
+    g8 g16. g32 g8 g c r c r
+    r c16. c32 c8 c c4 r
+    r2 c\p
+    c8 c16.\f c32 c8 c c4 r %25
+    r c8 c c2\p
+    c8 c16.\f c32 c8 c c r r4
+    c,2\p c4 r
+    R1*2 %30
+    r2 r8 g' g g
+    g4 r r2
+    R1*2
+    e2.\p c'4 %35
+    R1*4
+    r2 d(\p %40
+    g,) r
+    r4 r8 g\f g r r4
+    R1
+    r2 g\p
+    c4 r r2 %45
+    r8 d4 d8 d d\f d d
+    g, c d d g,4 r
+    r c,2\p c4
+    c1~
+    c4 r g'2 %50
+    c1
+    g8 g4\f g8 g4. g8
+    c c4 c8 c4. c8
+    e4 e8 e e4. e8
+    d2 g,4 g8 g %55
+    c4 c d2
+    g,4 r r2
+    R1*4 %61
+    r4 g c r
+    r8 c c g c4 r
+    r8 c4 g8 e4 g
+    e r r2\fermata \bar "|." %65 finis
+  }
+}

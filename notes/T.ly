@@ -328,3 +328,116 @@ LaudateTenoreLyrics = \lyricmode {
   men, a --
   men. %120 finis
 }
+
+LaetatusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key es \major \time 4/4 \autoBeamOff \tempoLaetatus
+    \partial 4 r4 R1*4
+    r4 r8 \mvTr b\p^\tutti b4 b %5
+    b8\f c16 c b8 as g4 r
+    R1
+    r2 r4 r8 b
+    b8. b16 b8 b b8. b16 b8 c
+    d8. d16 d4 b8 d d b %10
+    b4 a8 a16([ c)] c8. b16 b4
+    r b8 b c4 b8 b
+    c8. c16 b4 d8 d c c
+    c([ f es d)] es4 r
+    R1 %15
+    r4 es8 es d h c es
+    f f es([ f)] es4 es8 es
+    d8. d16 d4 es8 es c c16 c
+    d8. d16 d4 es b8 b
+    b4 b b\p b8 b %20
+    b8. b16 b4 r d8\fE d
+    d d16 d b8 b b b b b
+    b8. b16 b4 r8 es4\p c8
+    as as as as b4 b
+    c\fE c c8 c c c %25
+    des des c([ des)] c4 r
+    R1*11 %37
+    r4 \mvTr d4.\pE^\solo a8 d c
+    c4 b8 g g'8. g16 f4
+    f es8 es es4 c8 c %40
+    f4 d c c8 c
+    c4( d) r b8. b16
+    b8 g es'8. c16 a8 f'4 es8
+    es4 d8 d f4 as,
+    g( es'8) c b4.( \grace d16 c8) %45
+    b4 r r2
+    R1
+    r4 \mvTr b2\p^\tutti b8 b
+    c4 c c c8 c
+    b8. b16 b4 b4. b8 %50
+    b4 b8 b c2
+    b4 r r8 b4\f b8
+    b4 b r b8 b
+    h8. h16 h8 h c4 c
+    a8 a a a b8. b16 b4 %55
+    g8. g16 c8 es d4( es)
+    d r r8 g,([ as! b)]
+    c4 r r2
+    r r8 b[ c d]
+    es[ d16 es] f8[ es] d[ c16 d] es4~ %60
+    es8[ d16 c] b2 c4~
+    c b b r
+    r8 b([ c b)] b4 r
+    r8 b([ c b)] b4 b
+    b r r2\fermata \bar "|." %65 finis
+  }
+}
+
+LaetatusTenoreLyrics = \lyricmode {
+  In do -- mum %5
+  Do -- mi -- ni i -- bi -- mus.
+
+  Ie --
+  ru -- sa -- lem, Ie -- ru -- sa -- lem, Ie --
+  ru -- sa -- lem, quae ae -- di -- fi -- %10
+  ca -- ta ut ci -- vi -- tas,
+  cu -- ius par -- ti -- ci --
+  pa -- ti -- o e -- ius in id --
+  ip -- sum.
+  %15
+  Il -- luc e -- nim a -- scen --
+  de -- runt tri -- bus, tri -- bus
+  Do -- mi -- ni, te -- sti -- mo -- ni -- um
+  Is -- ra -- el, ad con -- fi --
+  ten -- dum no -- mi -- ni %20
+  Do -- mi -- ni. Qui -- a
+  il -- lic se -- de -- runt se -- des in iu --
+  di -- ci -- o, se -- des
+  su -- per do -- mum Da -- vid,
+  se -- des su -- per do -- mum, %25
+  do -- mum Da -- vid.
+
+  Pro -- pter fra -- tres %38
+  me -- os et pro -- xi -- mos
+  me -- os lo -- que -- bar, lo -- %40
+  que -- bar pa -- cem de
+  te: __ Pro -- pter
+  do -- mum Do -- mi -- ni De -- i
+  no -- stri quae -- si -- vi
+  bo -- na ti -- %45
+  bi.
+
+  Glo -- ri -- a %48
+  Pa -- tri, Pa -- tri et
+  Fi -- li -- o et Spi -- %50
+  ri -- tu -- i San --
+  cto, si -- cut
+  e -- rat in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in sae -- cu -- la %55
+  sae -- cu -- lo -- rum, a --
+  men, a -- men,
+
+  a --
+  _ _ _ _ %60
+  _ _
+  _ men,
+  a -- men,
+  a -- men, a --
+  men. %65 finis
+}

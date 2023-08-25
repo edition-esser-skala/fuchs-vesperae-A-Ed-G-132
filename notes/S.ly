@@ -346,3 +346,98 @@ LaudateSopranoLyrics = \lyricmode {
   men, a --
   men. %120 finis
 }
+
+LaetatusSoprano = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \autoBeamOff \tempoLaetatus
+    \partial 4 r4 R1*4
+    r4 r8 \mvTr es'\p^\tutti es4 d %5
+    es8\fE es16 es es8 d es4 r
+    R1
+    r8 d16([ c16)] b8 b16 as g4 es8 g
+    g8. f16 f8as as8. g16 g8 a
+    b8. b16 b4 d8 f f d %10
+    c4 c8 f16([ es)] es8. d16 d4
+    r b8 b a4 b8 b
+    a8. a16 b4 f'8 f es c
+    c4.( h8) c4 r
+    R1 %15
+    r4 c8 c d g es c
+    c c c([ h)] c4 c8 c
+    h8. h16 h4 c8 c es es16 es
+    f8. f16 f4 es es8 es
+    es([ b)] g4 as\p g8 g %20
+    g8. g16 f4 r b8\fE b
+    b b16 b b8 as g g g es'
+    des8. des16 des4 r8 c4\pE c8
+    b b b b b([ des)] des4
+    c\fE c es8 es f16([ es)] des([ c)] %25
+    b8 b as([ g)] as4 r
+    R1*21 %47
+    r4 \mvTr g2\p^\tutti g8 g
+    as4 as c c8 c
+    es8. b16 b4 as4. as8 %50
+    g4 g8 g f2
+    f4 r r8 d'4\f d8
+    es4 es r es8 es
+    d8. d16 d8 d c4 c
+    c8 c c c d8. d16 d4 %55
+    c8. c16 c8 c b4( a)
+    b8 b([ c d)] es4 es~
+    es8[ c f es] d[ c b as!]
+    g4 a b b
+    c2 b %60
+    as! g4. es'8
+    es4( d) es r
+    r8 es4( d8) es4 r
+    r8 es4( d8) es4 d
+    es r r2\fermata \bar "|." %65 finis
+  }
+}
+
+LaetatusSopranoLyrics = \lyricmode {
+  In do -- mum %5
+  Do -- mi -- ni i -- bi -- mus.
+
+  In a -- tri -- is tu -- is, Ie --
+  ru -- sa -- lem, Ie -- ru -- sa -- lem, Ie --
+  ru -- sa -- lem, quae ae -- di -- fi -- %10
+  ca -- ta ut ci -- vi -- tas,
+  cu -- ius par -- ti -- ci --
+  pa -- ti -- o e -- ius in id --
+  ip -- sum.
+  %15
+  Il -- luc e -- nim a -- scen --
+  de -- runt tri -- bus, tri -- bus
+  Do -- mi -- ni, te -- sti -- mo -- ni -- um
+  Is -- ra -- el, ad con -- fi --
+  ten -- dum no -- mi -- ni %20
+  Do -- mi -- ni. Qui -- a
+  il -- lic se -- de -- runt se -- des in iu --
+  di -- ci -- o, se -- des
+  su -- per do -- mum Da -- vid,
+  se -- des su -- per do -- mum, %25
+  do -- mum Da -- vid.
+
+  Glo -- ri -- a %48
+  Pa -- tri, Pa -- tri et
+  Fi -- li -- o et Spi -- %50
+  ri -- tu -- i San --
+  cto, si -- cut
+  e -- rat in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in sae -- cu -- la %55
+  sae -- cu -- lo -- rum, a --
+  men, a -- men, a --
+  _
+  _ _ men, a --
+  _ _ %60
+  _ _ men,
+  a -- men,
+  a -- men,
+  a -- men, a --
+  men. %65 finis
+}
+
+%

@@ -174,3 +174,69 @@ LaudateFagotto = {
     g r r\fermata \bar "|." %120 finis
   }
 }
+
+LaetatusFagotto = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \tempoLaetatus
+    \partial 4 r4 r2 r8 b'4\fz d,8\p
+    es as, b b es b es r
+    R1
+    r2 r4 r8 b'
+    b2 b4 b %5
+    es,8\f as b b es, b' g es
+    b'2 b4 b8 b
+    b4 b8 b es,4 g8 es
+    b'4 b8 b es,4 es8 es
+    d b d f b4. b8 %10
+    es, e f f b,4 b'16 f d b
+    b8 d4 d8 es4 d
+    es d8 b h g c c'
+    f,4 g c,8 c'\pE h c
+    g g\f c, g' c, f g g %15
+    c, r c' c h4 c
+    f, g c,8 r c' c
+    g r g g c, r c' c
+    b!4 b es, es~
+    es8 es es es d\p b es g %20
+    b4 b b\f b8 b
+    b4 b es, es8 es
+    es4 es8 es as c,4\pE c8
+    des2 es
+    as4\f c,8 es as4 r8 as %25
+    des,4 es as,8 as'\pE g as
+    es es4\f es8 as r r4
+    R1*3 %30
+    r2 r8 b\pE b es,
+    b'4 r r2
+    R1*2
+    es,4\pE d c r %35
+    r2 r8 g' fis g
+    d d\f g d g r r4
+    R1*2
+    r2 f4.\p f8 %40
+    b4 b r2
+    r4 r8 b\f b4 r
+    R1*3 %45
+    r8 b\pE a b f f\f b^\critnote f
+    b es, f f b, r r4
+    r2 es8(\p g b) r
+    \once \slurDashed c,( es as) r as,( c es) r
+    g,( b es) r d( f b) r %50
+    es,( g b) r as4( a)
+    b8 b\f f d b4 b'
+    es,8 es' b g es4 es
+    g4. g8 c, c'4 c8
+    f,4. f8 b!4. b8 %55
+    es,4 es f f
+    b, b' r8 es, f g
+    as!4 f b4. b8
+    es, d c f  b, b' c d
+    es d16 es f8 es d c16 d es4~ %60
+    es8 d16 c b2 c4
+    c b b r
+    r8 es, as b es, es16 f g8 es
+    d es as b es,4 b
+    es r r2\fermata \bar "|." %65 finis
+  }
+}

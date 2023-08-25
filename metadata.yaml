@@ -21,3 +21,6 @@ parts:
   cl2: Clarinetto II in \flat B/C
   cor12: Corno I, II in \flat E/F/G/\flat B
   ottoni: Clarino I, II in C\\Timpani in C–G
+extra_abbreviations:
+  vlc:
+  vlne:

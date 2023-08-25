@@ -217,3 +217,76 @@ LaudateViolinoII = {
     <h d,> r r\fermata \bar "|." %120 finis
   }
 }
+
+LaetatusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoLaetatus
+    \partial 4 r16. b32\fE c16. d32
+      es16. f32 g16. es32 c8 as'16. f32 d8 as'4\fz f8\p
+    es c g as as4 g8 r
+    b4. c8 d4 r8 f
+    es4 es8 es es4 d8 b'
+    c4 b es d16 d b as! %5
+    g\f es' c es f, es' f, d' es8 b16. b32 g16. g32 es16. es32
+    d8 f'4 b8 b8. g16 es b g' b
+    f d d b b b' b as g es b g es8 es
+    es8. d16 d8 f f8. es16 es8 c
+    b f''4 f8~ f16 d b' b b f f d %10
+    c g c b a8 a16 c c8. b16 b b d f
+    b8 f4 d16 b \tuplet 3/2 8 { a16[ c f] a g f b[ f es] d c b
+    a[ c f] a g f b[ f es] d c b d'[ c h] as! g f es[ g f] es d c }
+    as' c, f c es c' d, h' c,4 r
+    r8 <g d' h'> <g es' c'> <g d' h'> <g es' c'> \tuplet 3/2 8 { as'16[ g f] } es c' d, h' %15
+    c,4~ c16 g c es d g g f es c' g c
+    as c, f c es c' d, h' c8 c, r16 c es c
+    h8 g r16 h' d f, es8 c r16 c es c
+    as'! f d es f d b as g es g b es b es g
+    b g es f g es b g f4\p es %20
+    r16 es g es d b'\f b b d b d es f d b f
+    f' d f g as f d as g es g as b g es b
+    g'' es g as b g es des c8 es,\p es es
+    f\fpE as as as g\fpE b b b
+    c c'4\f as8~ as16 es es es \once \slurDashed f( es des c) %25
+    b f des' b as c, b g' as4 r
+    r8 <es b' g'> <es c' as'> <es b' g'> <es c' as'> \tuplet 3/2 8 { f'16[ es des] } c as' b, g'
+    as,8 r c,\p r b b4 c8
+    as r es' des des8. c16 c c es as
+    c8 r c, r c4 b %30
+    \once \slurDashed b8( d! f es) d4 r
+    \once \slurDashed d( es) f8 d f f
+    f4 es8 d d4 c8 c
+    es4 d2 d4
+    g2. es8 c %35
+    b4 d8 c b4 r
+    r8 <d c'>\f <d b'> <d c'> <d b'> g16 es d8 c
+    b4 \once \slurDashed g'(\p a2)
+    a4( g8) r c4( d)
+    \slurDashed d( c8) r c4( a) \slurSolid %40
+    d b8 b b4 a8 a
+    a4 b16 b\f d f b4 f,\p
+    g8 r g r a c4\fp c8
+    \once \slurDashed c4( b) r8 as r f
+    r \once \slurDashed es( g es) d d4 es8 %45
+    d4 r r8 <f es'>\f <f d'> <f es'>
+    <f d'> \tuplet 3/2 8 { g'16[ f es] d c b a[ b c] } b8 b~ \tuplet 3/2 8 { b16[ c b] as g f }
+    es4 r es4.\p es8
+    es4. es8 as4. as8
+    b4. b8 f4. f8 %50
+    es4. es8 es4. es8
+    d f'4\f f8 r16 \once \slurDashed f( d es f d b as)
+    g8 g'4 g8 r16 g( es f g es b g)
+    f f'( d es f d h f) es es'( c d es c g es)
+    \slurDashed es' c'( a b c a f es) d d'( b c d b f d) \slurSolid %55
+    g( es) es( c) es c g es \once \slurDashed d( f b d,) c8 a'
+    b d, es f g g f es
+    es4 as!8 g f es d f
+    es2 d4 \once \tieDashed b'~
+    b as!2 g4~ %60
+    g f2 es8 g
+    f16 f f f f f f f g8 b~ \tuplet 3/2 8 { b16[ c d] es f g }
+    f8 <g b, es,> <f c>[ <d f,>] <es g,> b~ \tuplet 3/2 8 { b16[ c d] es f g }
+    f8 <g b, es,>^\critnote <f c>[ <d f,>] <es g,>4 <d f,>
+    <es g,> r r2\fermata \bar "|." %65 finis
+  }
+}

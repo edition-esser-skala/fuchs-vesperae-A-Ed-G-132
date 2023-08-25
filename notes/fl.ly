@@ -163,3 +163,55 @@ LaudateFlauto = {
     g r r\fermata \bar "|." %120 finis
   }
 }
+
+LaetatusFlauto = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoLaetatus
+    \partial 4 r4 r2 r8 f''4\fz as,8\p
+    g r r4 r2
+    r r8 \appoggiatura c32 b( a b c) b8 r
+    R1
+    r4 r8 es es4 d %5
+    es8\f es4 d8 es b g es
+    b'4 r r2
+    r r4 r8 g
+    g8. f16 f8 as as8. g16 g8 a
+    b f'4 d b d8 %10
+    c4. f16 es es8. d16 d8 r
+    r2 f8 r f r
+    f f16. f32 f8 f d4 c
+    r2 r8 g4\p g8
+    g h\f c h c r r4 %15
+    c8 c g c d4 c
+    r c8 h c4 r
+    R1*5 %22
+    r2 as\p
+    b des
+    c4 r r2 %25
+    r r8 es4\p es8
+    es, es'\f es es es r r4
+    R1*3 %30
+    r2 r8 f16\p d b8 b
+    b4 r r2
+    R1*3 %35
+    r2 r8 d4 d8
+    d, d'\f d d b r r4
+    R1*8 %45
+    r8 f'4\p f8 f, f'\f f f
+    d r r4 r2
+    r8 es(\p b g) es4 r
+    R1*3 %51
+    r8 f'4\f f8 f,4 r
+    r8 es'4 es8 es,4 r
+    h'2 c
+    a b %55
+    r4 c( b a)
+    b8 b c d es4 r
+    R1*4 %61
+    es4 d es r
+    r8 es f d es4 r
+    r8 es f d es4 d
+    es r r2\fermata \bar "|." %65 finis
+  }
+}

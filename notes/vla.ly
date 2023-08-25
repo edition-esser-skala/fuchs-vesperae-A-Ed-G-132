@@ -219,3 +219,76 @@ LaudateViola = {
     d r r\fermata \bar "|." %120 finis
   }
 }
+
+LaetatusViola = {
+  \relative c' {
+    \clef alto
+    \key es \major \time 4/4 \tempoLaetatus
+    \partial 4 r16. b32\f c16. d32
+      es16. f32 g16. es32 c8 as'16. f32 d8 d4\fz b8~\p
+     b c b d d4 es8 r
+     es, f g as b4 r8 b
+     b4 c8 c c4 b8 d
+     es f d es b4. b8 %5
+     es\f as b b, es b'16. b32 g16. g32 es16. es32
+     b8 b d b r es g es
+     b' b, d b r es g es
+     b8. b16 b8 b b b b c
+     d b d f b b, r b %10
+     g' g f f f4 f8 r
+     r f f f f r f r
+     f f f f d d c c
+     d f es f es4 r
+     r8 g16 g g8 g g f g g, %15
+     g'4. g8 g g16 g g8 g
+     f as g g, g' g4 g8
+     g4. g8 g4. g8
+     b! b, r b es r es r
+     es es r es b2\p %20
+     r8 b b b b\f b' r b
+     b, b' r b, es es, r es'
+     es es r es es c\pE c c
+     des\fp f f f es\fp g g g
+     es4\f es c8 c4 es8 %25
+     f4 es8. des16 c4 r
+     r8 es es es es f es des
+     c r es\p r es es4 es8
+     des r b g' g8. as16 as as es c
+     as8 r as r as4 g %30
+     b4. b8 b4 r
+     \once \slurDashed b( c) d b8 b
+     h4 g'8 g, g4 g8 g
+     a4 b c b8 d
+     es es d d c c, r c' %35
+     d4 d8 d g,4 r
+     r8 d'\fE d d d c d d
+     d4 d2\p d4
+     d~ d8 r g2
+     g4.( ges8) f2 %40
+     f4. f8 g4 f8 es
+     es4 d16 b'\f f d b4 b\p
+     b8 r c r c c4\fp f8
+     f2 r8 d r b
+     b-\critnote es16 d c8 es f f4 a8 %45
+     b4 r r8 f\f b, f'
+     b, es f f b, b' \tuplet 3/2 8 { b16[ c b] as! g f }
+     es4 r b4.\p b8
+     c4. c8 es4. es8
+     es4. es8 b4. b8
+     b4. b8 c4. c8
+     b b'\f f d b r b' b,
+     es es b g es es' r es
+     g g, r g' c, c, r c'
+     f f, r f' b,! b' r b
+     g g g g f f f f
+     b,4 r r8 g as! b
+     c4 r r2
+     r r8 b( c d)
+     es d16 es f8 es d c16 d es4~
+     es8 d16 c b2 c4~
+     c8 c b b b b'4 b8~
+     b b as b b, b'4 \once \tieDashed b8~
+     b b as b b4 b
+     b r r2\fermata \bar "|."
+  }
+}

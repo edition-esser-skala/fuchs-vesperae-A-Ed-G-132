@@ -215,3 +215,76 @@ LaudateViolinoI = {
     <g h, d,> r r\fermata \bar "|." %120 finis
   }
 }
+
+LaetatusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 4/4 \tempoLaetatus
+    \partial 4 r16. b32\f c16. d32
+      es16. f32 g16. es32 c8 as'16. f32 d8 f'4\fz as,8\p
+    g16( es' f, c') es,8 \appoggiatura g16 f8 f4 es8 r
+    g8. f16 es8 f d \appoggiatura c'32 b([ a b c)] b8 as
+    g4 a8 a a4 b8 b'
+    b as!4 g8 g4 f16 d b as %5
+    g\f es' c es f, es' f, d' es8 b16. b32 g16. g32 es16. es32
+    d8 f'4 b8 b8. g16 es b g' b
+    f d d b b b' b as g es b g es8 g
+    g8. f16 f f' d as as8. g16 g8 a
+    b f'4 f8~ f16 d b' b b f f d %10
+    c g c b a c f es es8. d16 d b d f
+    b8 f4 d16 b \tuplet 3/2 8 { a[ c f] a g f b[ f es] d c b
+    a[ c f] a g f b[ f es] d c b d'[ c h] as! g f] es[ g f] es d c }
+    as' c, f c es c' d, h' c,4 r
+    r8 <g d' h'> <g es' c'> <g d' h'> <g es' c'> \tuplet 3/2 8 { as'16[ g f] } es c' d, h' %15
+    c,4~ c16 g c es d g g f es c' g c
+    as c, f c es c' d, h' c8 c, r16 c es c
+    h8 g r16 h' d f, es8 c r16 c es c
+    as'! f d es f d b as g es g b es b es g
+    b g es f g es b g as8\p f' g, es' %20
+    r16 g, b g f b\f b b d b d es f d b f
+    f' d f g as f d as g es g as b g es b
+    g'' es g as b g es des c8 as\p as as
+    f'\fp b, b b b'\fp des, des des
+    c c'4\f as8~ as16 es es es f( es des c) %25
+    b f des' b as c, b g' as4 r
+    r8 <es b' g'> <es c' as'> <es b' g'> <es c' as'> \tuplet 3/2 8 { f'16[ es des] } c as' b, g'
+    as,8 r as\p r g g4 as8
+    f r g b b8. as16 as c, es as
+    c8 r as r f4 es %30
+    d!8( f as g) f4 r
+    b( a) as8 f as as
+    as4 g8 f f4 es16 c es es
+    fis4 g a b8 g
+    c16 g c c b g b b es g, es' es es c c a %35
+    g d b g' a,8 fis' g4 r
+    r8 <d a' fis'>\f <d b' g'> <d a' fis'> <d b' g'> \tuplet 3/2 8 { es'16[ d c] } b g fis a
+    g4 d'2(\p c4)
+    c4( b8) r g'4( f!)
+    f( es8) r es4( c) %40
+    f d8 d c4. c8
+    c4 d16 b\f d f b4 b,~\p
+    b8 r es r c f4\fp es8
+    es4( d) r8 f r as,!
+    r g( es' c) b b4 \appoggiatura d16 c8 %45
+    b4 r r8 <f c' a'>\f <f d' b'> <f c' a'>
+    <f d' b'> \tuplet 3/2 8 { g'16[ f es] d c b a[ b c] } b8 b~ \tuplet 3/2 8 { b16[ c b] as g f }
+    es4 r g4.\p g8
+    as4. as8 c4. c8
+    es4. b8 as4. as8 %50
+    g4. g8 f4. f8
+    f f'4\f f8 r16 f( d es f d b as)
+    g8 g'4 g8 r16 g( es f g es b g)
+    f f'( d es f d h f) es es'( c d es c g es)
+    es' c'( a b c a f es) d d'( b c d b f d) %55
+    g( es) es( c) es c g es d( f b d,) c8 a'
+    b b c d es4 es~
+    es8 c f es d c b as!
+    g4( a b) b
+    c2 b %60
+    as! g4. es'8~
+    es16 es es es d d d d es8 b~ \tuplet 3/2 8 { b16[ c d] es f g }
+    as8 <g b, es,> <f c>[ <d f,>] <es g,> b~ \tuplet 3/2 8 { b16[ c d] es f g }
+    as8 <g b, es,> <f c>[ <d f,>] <es g,>4 <d f,>
+    <es g,> r r2\fermata \bar "|." %65 finis
+  }
+}

@@ -9,6 +9,7 @@
 tempoDixit = \tempoMarkup "Allegro"
   tempoDixitB = \tempoMarkup "Più allegro"
 tempoLaudate = \tempoMarkup "Allegro moderato"
+tempoLaetatus = \tempoMarkup "Allegretto"
 
 
 \include "notes/fl.ly"

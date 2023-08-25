@@ -452,3 +452,178 @@ LaudateBassFigures = \figuremode {
   r2 <7>4
   r2. %120 finis
 }
+
+LaetatusOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 4/4 \tempoLaetatus
+    \partial 4 r16. \mvTr b32-!\f-\soloE c16.-! d32-!
+      es16.-! f32-! g16.-! es32-! \parOn c8-\parenthesize-! as'16.-! f32-! \parOff d8-\parenthesize-! b4\fz d8\pE
+    es as, b b es( b es,) r
+    es' f g as b b, r d
+    es d c f b,4 << {
+      s8 d'^\vlc
+      es f d es_\tutti
+    } \\ {
+      b,8 b'
+      b2
+    } >> b8 b, r b %5
+    es\f as b b, es \parOn b'16.-\parenthesize-! \parOff b32-\parenthesize-! g16.-! g32-! es16.-! es32-!
+    b'8 b, d b r es g es
+    b' b, d b r es( g es)
+    b' b, r b es es, es' es
+    d b d f b b, r b %10
+    es e f f, b8. b16 b b' f d
+    b8 d d d es r d r
+    es es d b h g c c'
+    f, f g g, << {
+      c^\vlc c'\pE h c
+      g g s4
+    } \\ {
+      c,4 r
+      r8 \mvTr g'\fE-\soloE c, g'
+    } >> c, f g g, %15
+    c16 d32 es f g a h c8-\tuttiE c h g c c,
+    f f g g, c16 d32 es f g a h c8 c,
+    g16 a32 h c d e fis g8 g, c16 d32 es f g a h c8 c,
+    b b' r b, es r es r
+    es es r es d\p b es g %20
+    b4 b, b8\f b' r b
+    b, b' r b, es es r es
+    es es r es as c,\p^\critnote c c
+    des\fp des des des es\fp es es es
+    as\f as, c es as as, r as' %25
+    des, des es es << {
+      as,^\vlc as'\pE g as
+      es es4 es8
+    } \\ {
+      as,4 r
+      r8 \mvTr es'\fE-\soloE as es
+    } >> as des, es es
+    as r as,\pE r es' es( des c)
+    des4 es8 es as, as' as,16 as' es c
+    as8 r as' r as4 g %30
+    b8 b, d! es << { b^\vlc b' b es, } \\ { b4 r } >>
+    b b b8 b' r b,
+    h h' r h, c c' r c
+    c4 b! fis g
+    es8 es d d c c' r c, %35
+    d r d d << {
+      g,8^\vlc g' fis g
+      d d s4
+    } \\ {
+      g,4 r
+      r8 d'\f g d
+     } >> g c, d d
+    g g16 a b8\p g fis4 r8 fis
+    g g, g' f es d16 c h8 g
+    c c' r c, f f, r f %40
+    b b' r b, es e f f
+    b,4 b16 b'\f f d b8 r d\p r
+    es r c r f a4\fp a8
+    b b, b' r b,4( d)
+    es8 es16 d c8 es f4 f, %45
+    << { b8^\vlc b' a b f f s4 } \\ { b, r r8 f'\f b, f' } >>
+    b, es f f, b b'~ \tuplet 3/2 8 { b16[ c-! b]-! as!-! g-! f-! }
+    es4 r << {
+      es8(^\vlc g b) r
+      c,( es as) r as,( c es) r
+      g,( b es) r d( f b) r %50
+      es,( g b) r
+    } \\ {
+      \mvTr es,4\p-\tuttiE r
+      c r as r
+      g r d' r %50
+      es r
+    } >> as8 as a a
+    b b\f f d b r b' b,
+    es es' b g es es' r es,
+    g g, r g c c' r c,
+    f f, r f' b,! b' r b, %55
+    es es es es f f f f
+    b,4 b' r8 es, f g
+    as!4 f b4. b,8
+    es d c f << {
+      b,^\vlc b' c d
+      es d16 es f8 es d c16 d \once \tieDashed es4~ %60
+      es8 d16 c b2 c8 b
+      as as s4
+    } \\ {
+      b,2~ b b4. b8
+      c b16 c d8 b es d c b %60
+      as as' b b,
+    } >>
+    es es16 f g8 es
+    d es as b es, es16 f g8 es
+    d es as b es,4 b
+    es r r2\fermata \bar "|." %65 finis
+  }
+}
+
+LaetatusBassFigures = \figuremode {
+  r4 r2 r8 <[7]>4 <5>8
+  r <[6]> <6 4> <[7] 3> <7 4> <\t \t> <8 3>4
+  r8 <6 4> <6> q r4. <5>8
+  <8 3> <\t \t> <6!> <\t> \bo <[7! 4]>4 <8 3>
+  <\t 2>8 \bc <7- \t> \bc <[\t 3]> <6 4>4. <5 3>4 %5
+  r8 <6 [5]> <[5] 4> <7 [3]> <3>4... \once \bassFigureExtendersOn q32
+  r4 <[6 5]>2.
+  r1
+  <6 4>4 <5 3>8 <7 5> <4 2>4 <5 3>8 <4! 2>
+  <6>1 %10
+  <6 5>8 <\t \t> <_!> <\t> <7! 4>4 <8 3>
+  r8 <6>4. <4! 2>4 <6>
+  <4! 2> <6> <6 5> <_->
+  <[5] _->8 <6 \t> <6 4> <[7] _!> r2
+  r8 <_!>4 q <6 5>8 <6 4> <[5] _!> %15
+  r2 <6 5>
+  <[5]>4 <6 4>8 <[7] _!> r2
+  <_!>1
+  <7->
+  r2 <6 5> %20
+  <6 4>4 <5 3>2.
+  r4. <[7]>8 r2
+  <7-> r8 <6>4.
+  <_ 5>8 <6 \t>4. \bo <[8]>8 \bc <[7-]>4.
+  r1 %25
+  <6>4 <6 4>8 <7- 5> r2
+  r2 r8 <6> <6 4> <[7-] 3>
+  r2 <8 3>4 <\t \t>8 <6>
+  <5>4 <3>8 <7-> <4- 2> <\t \t> <8 3>4
+  r2 <6>4 q %30
+  <[_!]> <6 5>2.
+  <8 3>4 <7! 2> <7- 3>2
+  <7>4 <6>8 <5> <4 2>4 <3 [1]>
+  <[6!] 4\+ 3> <6> <6 [5 _!]>2
+  <6>4 <6 4> <5 3>4. <6!>8 %35
+  <6 4>4 <5! _+>2.
+  r8 <[7] 5! _+> <3> <[7 5!] _+>4 <5 3>8 <6 4> <[7 5!] _+>
+  r2 \bo <6 [_!]>4. \bc <5 [\t]>8
+  <4 2!>4 <3 [1]>8 <4! 2> <6>4 <6 [5]>8 <7 _!>
+  <\t \t>4 <8 5 3>8 <\t 5- \t> <[7] _!>2 %40
+  r <6 5>8 <\t \t> <_!>4
+  <7! 4 2> <8 3>2 <6>4
+  r2 <[_!]>8 <6>4 <5>8
+  <4 2>4 <3 [1]> <[7-]> <6 [5-]>
+  r4. <6>8 <6 4>4. <[7] _!>8 %45
+  r2 r8 <7 _!> <8> <7 _!>
+  <5>4 <6 4>8 <[5] _!> r2
+  r1
+  <6>2 <3>
+  <6> <6 [5]> %50
+  <3> <6 5>4 <\t \t>
+  r1
+  r
+  <7 _!>
+  q %55
+  <6>2 <6 4>4 <[7] _!>
+  r2 r8 <8 3> \bassFigureExtendersOn <8 _-> <8 3> \bassFigureExtendersOff
+  <6>2 <10 5>8 <9 4> <8 3> <7 \t>
+  <8 3> <\t \t> <6!> <\t> r2
+  r1 %60
+  \bo <[6- 5]>4 <6 5> <9> <5 3>8 <\t \t>
+  \bc <[6 5]>1
+  <[6] 5>8 <3> <6 5> <7> r2
+  <[6] 5>8 <3> <6 5> <7>4. q4
+  r1 %65 finis
+}

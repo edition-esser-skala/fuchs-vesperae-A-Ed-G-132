@@ -52,3 +52,11 @@ DixitClarinoI = {
     c r r2\fermata \bar "|." %86 finis
   }
 }
+
+LaetatusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoLaetatus
+    \partial 4
+  }
+}
