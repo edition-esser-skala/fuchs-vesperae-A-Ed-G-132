@@ -45,11 +45,3 @@ DixitTimpani = {
     c r r2\fermata \bar "|." %86 finis
   }
 }
-
-LaetatusTimpani = {
-  \relative c {
-    \clef bass
-    \key c \major \time 4/4 \tempoLaetatus
-    \partial 4
-  }
-}

@@ -240,3 +240,104 @@ LaetatusFagotto = {
     es r r2\fermata \bar "|." %65 finis
   }
 }
+
+NisiFagotto = {
+  \relative c {
+    \clef bass
+    \key as \major \time 3/4 \tempoNisi
+    as'2\f as4
+    as2 as4
+    g2 as4
+    des,8 f des c b des
+    es2 es4 %5
+    as r r
+    r8 g-!\p b-! as-! g-! f-!
+    es-! des-! c-! b-! as-! g-!
+    as as' c b as g
+    f es des c b as %10
+    es'4\crescE r es
+    es r es
+    es\fE es es
+    es es as,
+    es' es as, %15
+    es' r es\p
+    es2 es4
+    as2.\f
+    as4 as as
+    g2. %20
+    g4 g g
+    as2.
+    f2 f8 es
+    d c b c d b
+    es4. f8 g es %25
+    f4. es8 d c
+    b2 b'4
+    f2 f4
+    b, b b
+    b b8 d f b %30
+    b,2 b'4
+    es,2 es4
+    b'2.
+    b,4 b' b
+    es,2 es4 %35
+    R2.*2
+    g2 g4
+    c2 c4
+    as8 c g c f, g %40
+    es g d g c, c'
+    c, f g4 g
+    c, r r
+    R2.*9 %52
+    g'2.\p
+    as
+    b!
+    es,2 es4
+    R2.*17 %73
+    f2.\f
+    c'4 c c %75
+    e, c r
+    r f f
+    as2.
+    g
+    c %80
+    f,4 e f
+    c' c c
+    c2.
+    b
+    as %85
+    g4 e c
+    f2 f4
+    des des b8 des
+    es!2 es4
+    as, r r %90
+    R2.*3
+    as'2.\fE
+    as4 as as %95
+    g2.
+    g4 g g
+    as2 as4
+    des,2 d4
+    es es es %100
+    es2.
+    es4 es es
+    es es es
+    des!2 des4
+    c2 c'4 %105
+    g8 es g es g es
+    as4 r r
+    R2.*4 %111
+    as4 f des
+    es2 es4
+    as b8 as g f
+    es4 des \once \tieDashed c~ %115
+    c8 des es4 es
+    as,8 as' b as g f
+    es4 des c~
+    c8 des es4 es
+    as as\p as %120
+    \once \tieDashed as2.~
+    as4 es c
+    as as' as
+    as2.\fermata \bar "|." %124 finis
+  }
+}

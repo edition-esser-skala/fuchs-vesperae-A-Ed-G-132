@@ -292,3 +292,134 @@ LaetatusViola = {
      b r r2\fermata \bar "|."
   }
 }
+
+NisiViola = {
+  \relative c' {
+    \clef alto
+    \key as \major \time 3/4 \tempoNisi
+    as'8\f es c as c as
+    as' es c as c as
+    g' es16 f g8 es as as,
+    des f des c b des
+    es4 es, es' %5
+    as, r r
+    r8 es'\pE es4 es
+    es2.
+    es4 es es
+    es2. %10
+    es2\cresc es4
+    es2 es4
+    f8\fE f4 f f8
+    g4 es es
+    es es8 es es es %15
+    es4 r r
+    R2.
+    as8 es c as c as
+    as' es c as c as
+    g' es b g b g %20
+    g' es b g b g
+    as' es c as c as
+    f' c as f f' es
+    d c b c d b
+    es es, es' f g es %25
+    f f, f' es d c
+    b4 r b
+    f' f, f
+    b b b
+    b b8 d f b %30
+    b,4 r b
+    b g b
+    b as! g
+    b b' b,
+    b4. as8 g4 %35
+    g'8 d h g g' g,
+    c g es c es c
+    g'' d h g g' g,
+    c g es c c' c,
+    as' c g c f, g %40
+    g4 h( c)
+    c8 f g4 g,
+    c r8 c d c
+    h4 r8 b c b
+    as4 r8 \parOn g'-\parenthesize-! f-! es-! %45
+    d-! c-! h-! g-! c-! \parOff es-\parenthesize-!
+    f f, g4. f8
+    es4 c\p c
+    g' g' r
+    g g g %50
+    g2 g4
+    g g, r
+    b!2.
+    c4 c c
+    b r b %55
+    es r es
+    des! r des
+    e2 c4
+    c2.
+    c4 c8 c'\f g e %60
+    c4 r \once \slurDashed g'(\p
+    f) r f
+    g2 c,4
+    c c c
+    c8\fp c c c c c %65
+    r b b b b b
+    r f' f f f f
+    c2 e4
+    f r8 f\f g f
+    e4 r8 es f es %70
+    des4 r8 \parOn c-\parenthesize-! b-! as-!
+    g-! f-! e-! e-! f-! \parOff f-\parenthesize-!
+    f4 f e
+    f f' r
+    r8 c e g c g %75
+    e4 c r
+    r8 f, as c f c
+    as4 f r
+    r8 g h d g g,
+    r c e g c c, %80
+    f c e c f as
+    c4 c, r
+    c c r
+    b8 b b b b b
+    as as as as as as %85
+    g g' e e c c
+    f4 r f
+    des8 des des des des des
+    es! es es es des des
+    c4 r8 as'(\p g4) %90
+    f( es des)
+    c des r
+    r8 as( g as) b4
+    as\fE r r
+    as'8 es c as c as %95
+    g' es b g b g
+    g' es b g b g
+    as' es c as c as
+    des des, des' des d d
+    es4 es es %100
+    es r es
+    f f f
+    es8 es es es es es
+    des! des des des des des
+    c c c c as as %105
+    g es g es g es
+    as4 r as
+    des r des
+    es es es
+    es r es %110
+    es8 es, f es f g
+    as as f f des des
+    es es es es es es
+    as as' b as g f
+    es es des des c c, %115
+    c' des es es es es
+    as, as' b as g f
+    es es des des c c,
+    c' des es es es es
+    as,4 c\p c %120
+    des( c des)
+    \once \slurDashed c2.~
+    c2 c4
+    c2.\fermata \bar "|." %124 finis
+  }
+}

@@ -288,3 +288,134 @@ LaetatusViolinoI = {
     <es g,> r r2\fermata \bar "|." %65 finis
   }
 }
+
+NisiViolinoI = {
+  \relative c' {
+    \clef treble
+    \key as \major \time 3/4 \tempoNisi
+    <c as'>4\f r8 c'( es as)
+    c as4 es c8
+    des b'4 des,8 c as'
+    b, f'4 f des16( b)
+    as8 c, des b' b, g' %5
+    as as'(\p b as g f)
+    es des des4 des
+    des2.
+    c4 c c
+    c2 c4 %10
+    b8(\cresc g' b g es des)
+    c( as' c b as g)
+    f(-.\f es-. d-. c-. b-. as-.)
+    g4 <es b' g'> <es c' as'>
+    <es b' g'> q <es c' as'> %15
+    <es b' g'> r r
+    R2.
+    <c as'>4 r8 c'( es as)
+    c as4 es c8
+    <es es,>4 r8 es( g b) %20
+    des des,4 b es8
+    c4 r8 c( es as)
+    c4 r8 c, c' c
+    b4 r8 b, b' as
+    g4 r8 g, g' g %25
+    es[ c a' a] a8.\trill g32 a
+    b8 f es c b d
+    c es, d b' c, a'
+    b4 b, b
+    b <d b' as'!> <d b' as'> %30
+    q8 f' d b f' as,
+    g( b es g b, es)
+    g, es d f es g
+    as f f'( d b as)
+    r g g as b g %35
+    h4 r8 g'( d g)
+    es4 r8 es( g c)
+    h4 r8 \once \slurDashed h( d f,)
+    es4 r8 es( g c)
+    f, c es c d h %40
+    g' g, f' g, es'4~
+    es8 d c es, d h'
+    c[ es as g] fis8.\trill e32 fis
+    g8([ d g f)] e8.\trill d32 e
+    f8-! c-! f-! es-! d-! c-! %45
+    h-! as!-! g-! f-! es-! c'-!
+    as( f es g f d)
+    c4 g'(\p es)
+    g4.^\critnote g8 g4
+    c( d es) %50
+    f4. g8 es4
+    es d r
+    es2.~
+    es4 es es
+    d2 b8 as %55
+    r g g as b b
+    r b b b b b
+    b g' e c b c
+    as c b c as c
+    as c g c,\f e g %60
+    c4 r \once \slurDashed e(\p
+    f) r des!~
+    des b c
+    b8 as as f as c
+    f\fp c c c c c %65
+    r des des des des des
+    r d d d d d
+    r f,[ c f] \appoggiatura as g8. g16
+    f8[ as'\f des c] h8.\trill a32 h
+    c8[ c, c' b] a8.\trill g32 a %70
+    b8 b, b'-! as-! g-! f-!
+    e-! des!-! c-! b-! as-! f'-!
+    des( b as c b g)
+    f as c f as f
+    e4 <c e, g,> q %75
+    r8 c e g c b
+    as4  <f as,> q
+    r8 c f as c c,
+    h h'4 h h8
+    b b4 g8 e b %80
+    as4( b as)
+    as g8 c, e g
+    c e, g c e c
+    g c e c e g
+    f c as f c'' c %85
+    c c, b' g b b,
+    as as b b c c
+    des des4 f8 des b
+    as[ c, es as] \appoggiatura c b8. b16
+    as8 c as'\p f \appoggiatura g16 f8 es %90
+    \appoggiatura f16 es8 des \appoggiatura es16 des8 c \appoggiatura des16 c8 b
+    \appoggiatura c16 b8 as a( b c des)
+    es,4 es4. f16( g)
+    as4\f r8 c es as
+    c as4 es c8 %95
+    <es es,>4 r8 es( g b)
+    des des,4 b es8
+    c c4 es8 as c
+    b([ b,) b' b] as8.\trill g32 as
+    g8 es b' g es des %100
+    c as' c b as g
+    f es d c b as
+    g16( es g b) es8 es es es
+    r4 <g b, es,> q
+    as8 c4 as8 es c %105
+    des! b'4 g8 es des
+    c c es des c b
+    as as f' es des c
+    b g as g as b
+    c b c b c d %110
+    es4 es4. des8
+    c as des as f' as
+    as, c, es as \appoggiatura c16 b8 b
+    as as b as g f
+    es g'4 es8 as es~ %115
+    es des16 b as8 c, b g'
+    as as b as g f
+    es g'4 es8 as es~
+    es des16 b as8 c, b g'
+    as4 as\p as %120
+    as2.~
+    as~
+    as4 as as
+    as2.\fermata \bar "|." %124 finis
+  }
+}

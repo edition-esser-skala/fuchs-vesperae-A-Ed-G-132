@@ -425,3 +425,191 @@ LaetatusBassoLyrics = \lyricmode {
   a -- men, a --
   men. %65 finis
 }
+
+NisiBasso = {
+  \relative c {
+    \clef bass
+    \key as \major \time 3/4 \autoBeamOff \tempoNisi
+    \mvTr as'2\f^\tutti as4
+    as4. as8 as4
+    es g as
+    des,4. des8 des4
+    es2. %5
+    as,4 r r
+    r r g'\p
+    g2 g4
+    as as as
+    as2 as4 %10
+    es2 es4
+    es4. es8 es4
+    es2.\f
+    es4 r r
+    R2.*3 %17
+    as2 as4
+    as4. as8 as4
+    r g g %20
+    g4. g8 g4
+    as2 as4
+    f f r
+    d2 d4
+    es4. es8 es4 %25
+    f2 f4
+    b,2 b4
+    f'2.
+    b,4 r r
+    R2.*2 %31
+    r4 es es
+    b b b
+    b4. b8 b b
+    es4. es8 es4 %35
+    g4. g8 g4
+    c, c c
+    g'4. g8 g4
+    c c c
+    as( g) f %40
+    es( d) c~
+    c8 f g2
+    c,4 r r
+    R2.*30 %73
+    \mvTr f4\fE^\tutti f f
+    c r r %75
+    e e e
+    f f f
+    as2 as4
+    g2 g4
+    e4. e8 e4 %80
+    f e f
+    c c r
+    c r r
+    b b' b
+    as as as8 as %85
+    g4 g e8 e
+    f2 f4
+    des2 des8 des
+    es!2.
+    as,4 r r %90
+    R2.*3
+    as'4. as8 as4
+    as as as %95
+    g2 g4
+    g g g
+    as4. as8 as4
+    des,2( d4)
+    es es es %100
+    es es es8 es
+    es8. es16 es8 es es es
+    es4 es es8 es
+    des!4. des8 des4
+    c4. c'8 c c %105
+    g2.
+    as4 r as
+    des, r des
+    es es es
+    es2. %110
+    es8 es[( f es f g])
+    as4 f des
+    es2.
+    as,4 r r
+    es' des c~ %115
+    c8 des es2
+    as,4 r r
+    es' des c~
+    c8 des es2
+    as,4 as\p as %120
+    as2.
+    as4 r r
+    R2.
+    R\fermata \bar "|." %124 finis
+  }
+}
+
+NisiBassoLyrics = \lyricmode {
+  Ni -- si
+  Do -- mi -- nus
+  ae -- di -- fi --
+  ca -- ve -- rit
+  do -- %5
+  mum,
+  in
+  va -- num
+  la -- bo -- ra --
+  ve -- runt %10
+  qui ae --
+  di -- fi -- cant
+  e --
+  am.
+
+  Ni -- si %18
+  Do -- mi -- nus
+  cu -- sto -- %20
+  di -- e -- rit
+  ci -- vi --
+  ta -- tem,
+  fru -- stra
+  vi -- gi -- lat %25
+  qui cu --
+  sto -- dit
+  e --
+  am.
+
+  Va -- num %32
+  est vo -- bis
+  an -- te lu -- cem
+  sur -- ge -- re: %35
+  sur -- gi -- te
+  post -- quam se --
+  de -- ri -- tis,
+  qui man -- du --
+  ca -- tis %40
+  pa -- nem __
+  do -- lo --
+  ris.
+
+  Be -- a -- tus %74
+  vir, %75
+  be -- a -- tus
+  vir qui im --
+  ple -- vit
+  de -- si --
+  de -- ri -- um %80
+  su -- um ex
+  ip -- sis:
+  non,
+  non con -- fun --
+  de -- tur cum lo -- %85
+  que -- tur in -- i --
+  mi -- cis
+  su -- is in
+  por --
+  ta. %90
+
+  Glo -- ri -- a %94
+  Pa -- tri et %95
+  Fi -- li --
+  o et Spi --
+  ri -- tu -- i
+  San --
+  cto si -- cut %100
+  e -- rat in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in
+  sae -- cu -- la
+  sae -- cu -- lo -- rum, %105
+  a --
+  men, a --
+  men, a --
+  men, a -- men,
+  a -- %110
+  men, a --
+  \xE men, a -- \x men,
+  a --
+  men,
+  a -- _ _ %115
+  men, a --
+  men,
+  a -- _ _
+  men, a --
+  men, a -- men, %120
+  a --
+  men. %122 finis
+}

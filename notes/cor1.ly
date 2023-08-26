@@ -210,3 +210,94 @@ LaetatusCornoI = {
     c r r2\fermata \bar "|." %65 finis
   }
 }
+
+NisiCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoNisi
+    c'2.~\f
+    c4 c c
+    c2 c4
+    R2.
+    c~ %5
+    c4 r r
+    c2.~\p
+    c4 c c
+    c2.
+    c4 c c %10
+    c2.\cresc
+    c
+    c4\f c c
+    c c8 c16 c c8 c
+    c4 c8 c16 c c8 c %15
+    c4 c\p c
+    c2.
+    c\f
+    c4 c c
+    c2.~ %20
+    c4 c c
+    c r r
+    R2.
+    d2 d4
+    e2 e4 %25
+    \pao d r r
+    R2.
+    \pao d
+    g4 g g
+    g d d %30
+    d2 d4
+    e r e
+    e d e
+    d2 d4
+    e r r %35
+    e2.
+    e4 e e
+    e2.
+    e4 e e
+    R2. %40
+    e2 e4
+    r e e
+    e r r
+    R2.*4 %47
+    r4 e\p e
+    e2.
+    R2.*3 %52
+    e2.\p
+    d
+    d2 d4 %55
+    e r r
+    R2.*31 %87
+    \pa d2.\f
+    c2 c4
+    c \pd r r %90
+    R2.*3
+    c2.\f
+    c4 c c %95
+    c2.
+    c4 c c
+    c2 r4
+    R2.
+    c4 c c %100
+    c2.
+    c4 c c
+    c2.~
+    c4 c8 c c c
+    c2.~ %105
+    c2 c4
+    c r r
+    R2.*4 %111
+    \pa c4 d d
+    c2 c4
+    c \pd r r
+    c2 c4 %115
+    r c c
+    c r r
+    c2 c4
+    r c c
+    c r r %120
+    R2.
+    c\p
+    c4 c c
+    c2.\fermata \bar "|." %124 finis
+  }
+}

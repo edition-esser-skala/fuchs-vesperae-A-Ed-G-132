@@ -236,3 +236,104 @@ LaetatusClarinettoI = {
     f r r2\fermata \bar "|." %65 finis
   }
 }
+
+NisiClarinettoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \tempoNisi
+    b'2.\f
+    d
+    f4 es d
+    c2.
+    b4 c a %5
+    b r r
+    es2.\p
+    es4 es es
+    d2.
+    d4 d d %10
+    c2.\crescE
+    d
+    b4\f b b
+    a a' b
+    a a b %15
+    a8 a,\pE a b c d
+    es( d f es d c)
+    d2.\f
+    d4 d d
+    es2. %20
+    es4 es es
+    d2.
+    d4 d d
+    c2.
+    c4 c c %25
+    h2.
+    c4 d e
+    d( c d)
+    c c c
+    c e e %30
+    e2.
+    f
+    f4( e f)
+    g2.
+    f4. e8 f4 %35
+    R2.*2
+    g2.
+    f
+    R %40
+    a4 g f
+    r d e
+    d r r
+    R2.*9 %52
+    f2.~\p
+    f
+    e2 c8 b %55
+    a4. b8 c4
+    R2.*17 %73
+    g'2.\f
+    fis4 fis fis %75
+    a2.
+    g4 g g
+    g2.
+    g
+    fis %80
+    g4 a g
+    g fis fis
+    fis2.
+    fis
+    g %85
+    R
+    g4 a b
+    c2.
+    b2 a4
+    b r r %90
+    R2.*3
+    d,2.\fE
+    d4 d d %95
+    f2.
+    es4 es es
+    d2.
+    g
+    f4 c c %100
+    d2.
+    b
+    c4 f f
+    f2.
+    f %105
+    es
+    d4 r r
+    R2.*4 %111
+    d4 es g
+    d r f
+    d r r
+    \once \tieDashed f2.~ %115
+    f8 es d4 c
+    d r r
+    f2.~
+    f8 es d4 c
+    d d\p d %120
+    es d es
+    \once \tieDashed d2.~
+    d4 d d
+    b2.\fermata \bar "|." %124 finis
+  }
+}
