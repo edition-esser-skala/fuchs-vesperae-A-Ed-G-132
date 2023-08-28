@@ -337,3 +337,70 @@ NisiClarinettoI = {
     b2.\fermata \bar "|." %124 finis
   }
 }
+
+IerusalemClarinettoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoIerusalem
+    f'2.\f f4
+    g f r f8 e
+    f2. f4
+    g f2 e4
+    c e g2 %5
+    f8 f4 e8 f2
+    e4 e8 e f2
+    e4 g f2
+    f1
+    f2 g4 f %10
+    f e8 e e4 e
+    e1
+    f2. f4
+    e r r2
+    c8 r e r g f e f %15
+    e4 e g4. e8
+    f4 e2 d4
+    d4. d8 e4 e
+    g4. g8 g( f) f f
+    f2~ f8 f f f %20
+    e4 e2 e4
+    R1*2
+    f2 f8 e d d
+    c4 r r8 f16 d c8 d %25
+    c4 r r2
+    R1*5 %31
+    r2 f\fE
+    f4 f e4. g8
+    f f4 f8 e4 g
+    f2 a %35
+    b4 f g2
+    f es
+    d4 r8 b' b4 a
+    b4 r f r
+    r b,8 c b4 r %40
+    R1*7 %47
+    r4 r8 e\pE g16( f e f) g8 r
+    R1*4 %52
+    e2\fE g
+    f4 a b b
+    a f d b' %55
+    a r r2
+    R1
+    r8 g4 a8 g( a) g( a)
+    g c\pE g c g c4 b16 g
+    f4\fE r f4. f8 %60
+    g4 f2 e4
+    c e g4. g8
+    f f4 e8 f2
+    d4 c c f
+    d g f f %65
+    f e d4. d8
+    c4 r r2
+    R1*3 %70
+    f4 a b b8 b
+    a4 a b b8 b
+    a4 f4~ f8 f f f
+    g f4 e8 f4 f~
+    f8 f f f g f4 e8 %75
+    f4 e f r\fermata \bar "|." %76 finis
+  }
+}

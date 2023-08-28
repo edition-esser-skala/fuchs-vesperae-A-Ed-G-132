@@ -341,3 +341,73 @@ NisiFagotto = {
     as2.\fermata \bar "|." %124 finis
   }
 }
+
+IerusalemFagotto = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoIerusalem
+    f,8\f f' c a f f' r f
+    e4 f r c8 c
+    f2. f4
+    e f c c
+    c' c c2 %5
+    f,8 d b c f2
+    c4 r f f8 f
+    c4 e8 c f f4 es8
+    d b d b a f a c
+    f f4 f8 e c f a %10
+    c4 c, c' c
+    b2 a4 a
+    f d g r8 g
+    c,4 f8 fis g4 g
+    c,8 r c r c f g g %15
+    c, r c r r16 c e g c8 c,
+    h g c e g4 g
+    g4. g8 c,4 c'
+    a4. a8 d,4 d
+    g r8 g g, h d g %20
+    c, c' r c c4 c
+    a h gis a
+    fis g e f
+    d c h8 c16 e g8 g
+    c,4 r8 c f f g g %25
+    c,4 r r2
+    R1*5 %31
+    r2 d4\fE d
+    r16 d f a d8 d, a'4. a8
+    d, d' r d, a'4 a
+    d,8 f a d f,2 %35
+    b,8 b' b b b, b' b b
+    b, b' b b f4 f
+    b r8 b es,4 f
+    b, r b' r
+    es, f8 f b,4 r %40
+    R1*7 %47
+    r4 r8 c'\pE c, c' c, r
+    R1*4 %52
+    c'2\fE c4 c
+    f, f f f
+    f f8 f f4 f %55
+    f r r2
+    R1
+    r8 c'4 f,8 c' f, c' f,
+    c' c\pE c c c4 c
+    f,\fE r f4. f8 %60
+    e c f f c4 c'
+    c, c c8 c' r e,
+    f d b c f, f' f f
+    f f f f f, f' f f
+    f f f f f f d d %65
+    h h' c e, f f g4
+    c, r8 c f e16 f d8 c16 d
+    b!4 g' e8 d16 e c8 d16 e
+    f8 e16 f a8 g16 a b8 a g f
+    e d16 e f8 a, b a16 b c8 c %70
+    f4 f f2
+    f4 f f2
+    f4 f~ f8 f f f
+    e f c c f4 f~
+    f8 f f f e f c c %75
+    f4 c f r\fermata \bar "|." %76 finis
+  }
+}

@@ -301,3 +301,72 @@ NisiCornoII = {
     c2.\fermata \bar "|." %124 finis
   }
 }
+
+IerusalemCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoIerusalem
+    e2\f e8 e4 e8
+    g4 c r c8 g
+    e2 e8 e4 e8
+    g4 c c8. c16 g8 g
+    g r g g g2 %5
+    e8 r r4 e4. e8
+    g r g g e4 e8 e
+    g4 r r8 c,4\fz c8
+    c2\fz c\fz
+    c4 r g' c %10
+    c g8 g g4 g
+    g r e e8 e
+    e4 r d'2~
+    d4 r d4. d8
+    g, r g r g4 r %15
+    g8 r g r g4. g8
+    d'4 d8 d d4 r
+    d4. d8 g,4. g8
+    d' d4 d8 d c c c
+    d4 r r8 d d d %20
+    g,4 g r2
+    R1*2
+    r2 r4 d'8 d
+    g,4 r r d'8 d %25
+    g,4 r r2
+    R1*5 %31
+    r4 e8\fE e c' r c r
+    c4. c8 e4. e8
+    e e16 e e8 e e4 r
+    e,1 %35
+    c4 r r2
+    R1*3
+    r4 c'8 c c4 r %40
+    R1*2
+    c,1~\p
+    c4 r r2
+    R1*3 %47
+    r4 r8 g' g g g g
+    g2 r
+    R1*3 %52
+    g4\fE g8 g g4 g
+    c c,2\fz c4
+    c c2\fz c4 %55
+    c r r2
+    r r4 d'
+    g,8 g4\fz c8 g c g c
+    g g\p g g g2
+    e\f e8 e4 e8 %60
+    g4 c c8. c16 g8 g
+    g r g g g4. g8
+    e r r4 c2
+    c1~
+    c %65
+    r2 r4 d'8 d
+    d4 r r2
+    R1*3 %70
+    c,4 c2\fz c4~
+    c c2\fz c4
+    e e4~\fz e8 e e e
+    r2 e4 \once \tieDashed e~\fz
+    e8 e e e r4 g8 g %75
+    e4 g e r\fermata \bar "|." %76 finis
+  }
+}

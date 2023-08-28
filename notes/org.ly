@@ -885,3 +885,165 @@ NisiBassFigures = \figuremode {
   q
   q \bassFigureExtendersOff %124 finis
 }
+
+IerusalemOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoIerusalem
+    \mvTr f,8\f-\soloE f' c a f f' r f
+    e c f a b b, c c
+    f,-\tuttiE f' c a f f' r f
+    e c f f, c' c' c, r
+    c r c r c c' r e,^\critnote %5
+    f d b c f f, r f'
+    c c e e f f, r f'
+    c c e c f f4 es8
+    d b d b a f a c
+    f f4 f8 e! c f a %10
+    c c, c c c c c' c
+    b b b b a a a, a
+    f' f d d g g, r g'
+    c,! c f fis g g g, g
+    c r c r c f g g, %15
+    c r c r r16 c e g c8 c,
+    h g c e g4 g
+    g,8 g' r g c, c' r c
+    a, a' r a d, d, r d'
+    g, g' r g g, h d g %20
+    c, c' r c c, c' c c
+    a a h h gis gis a a
+    fis fis g g e e f f
+    d d c c h c16 e g8 g,
+    c c, r c'-\solo f f g g %25
+    c,4\p c h8 h' r h
+    c h a d, g g, g' f!
+    e e e e f f e e
+    d r d d a' a, a' g
+    f f fis fis g g, r g' %30
+    a4 a,8 a' d, d,\f r d'
+    g g a a d,-\tuttiE r d r
+    r16 d f a d8 d, a' a, cis a
+    d d' r d, a' a, cis a
+    d f a d f,, a c f %35
+    b, b' b b b, b' b b
+    b, b' b b f f, r f'
+    b, b' r b, es es f f
+    b,4 r8 b'-\soloE b,4 r8 b'
+    es, es f f b, r b\p r %40
+    b b' r b, f' es d g
+    es h c es f f, f' r
+    f, a c f f, f' r f
+    b, d f f, b b' b, as'
+    g as g f es c r c' %45
+    h h, r h' c a4 a8
+    b d,16 es f8 fis g g16 f e8 f
+    c c' c, r r2
+    e4 r f r
+    fis8 r fis r g es c d %50
+    g g,\f r g c c d d
+    g, g'-\tuttiE g g g, g' g g
+    c, c' c c c, c' c c
+    f, f f f f, f' f f
+    f, f' f f f, f' f f %55
+    f a g f e c r e
+    f f e e d d g g
+    c, c'4 f,8 c' f, c' f,
+    c'4 r r8 c,\p c c
+    f,\f f' c a f f' r f %60
+    e c f f, c' c' c, r
+    c r c r c c' r e,
+    f d b c f, f' f f
+    f, f' f f f, f' f f
+    f, f' f f f, f' d d %65
+    h h' c e, f f g g,
+    c4 r8 c f e16 f d8 c16 d
+    b!4 g' e8 d16 e c8 d16 e
+    f8 e16 f a8 g16 a b8 a g f
+    e d16 e f8 a, b a16 b c8 c %70
+    f, f' f f f, f' f f
+    f, f' f f f, f' f f
+    f4 f~ f8 f f f
+    e f c c f4 f~
+    f8 f f f e f c c %75
+    f4 c f, r\fermata \bar "|." %76 finis
+  }
+}
+
+IerusalemBassFigures = \figuremode {
+  <8 3>4. \once \bassFigureExtendersOn q8 r2
+  <6 5> <5>8 <6> <6 4> <[5] 3>
+  <3>4. \once \bassFigureExtendersOn q8 r2
+  <6 5> <6 4>4 <5 3>
+  r2 <[7]> %5
+  r8 <5> <6 5>2.
+  r4 q2.
+  r4 q2 r8 <4 2>
+  <6>2 q
+  r <6 5>4 <3> %10
+  <6 4> <5 3>2.
+  <4 2>2 <7 _+>
+  <6> <[7] _!>
+  r4 <6>8 <5> <5 4>4 <\t _!>
+  r2 r8 <6> <6 4> <[7] _!> %15
+  r1
+  <6 5>2 <6 4>4 <[5] _!>
+  <7 [_!]>1
+  <[7] _+>2 <4 2>8 <3 [1]>4.
+  <7 _!>1 %20
+  r
+  <6>4 <5> <6 [_!]> <5>
+  <6> <_-> <6> <3>
+  r <4 2> <6 5> <5 4>8 <\t _!>
+  r2 <5>8 <6> <6 4> <[7] _!> %25
+  r2 <6 [5]>
+  r8 <6> <7> <7 _+> <\t \t>4 <_!>
+  <6 3> <\t _+>2 <6\\ [_!]>4
+  r2 <6 4>4 <[5] _+>
+  <6> <5!> <_->4. <6>16 <5> %30
+  <5 _+>8 <6 4> <5 \t> <\t _+> r2
+  <5>8 <6> <6 4> <[5] _+> r2
+  r <_+>4 \bo <[6 5]>
+  r2 <_+>4 \bc <[6 5]>
+  r2 <7- [5!]> %35
+  r <6 4->
+  <5 3> <7->
+  r <6 5>
+  r1
+  <5>8 <6> <6 4> <[7-] 3> r2 %40
+  r r8 <4 2> <6> <_!>
+  <6> q <_-> <6> <6 4->4 <[5] 3>
+  r1
+  r4 <6 4>8 <7- 5> <4- 2>4 <3 1>
+  <_!>4. \once \bassFigureExtendersOn q8 <6> <[_-]>4. %45
+  <6>4. \bo <[5]>8 \bc <[_-]> <6>4 <5->8
+  r4 <[6 4]>8 <7- 5>4. <5 3>4
+  <6 4>4 <5 _!>2.
+  <6 [5]>1
+  <6>4 <5>2 <6 5 _->8 <_+> %50
+  r2 <5 _->8 <6 \t> <6 4> <5 _+>
+  r1
+  <7 _!>
+  r2 <6 4>
+  <[5 3]> <6 4> %55
+  <5 3>8 <6> q q q4. <5>8
+  r4 <6> <7> <7 _!>
+  r4. <3>4 q q8
+  r2 r8 <[7]>4.
+  <5 3>4. \once \bassFigureExtendersOn q8 r2 %60
+  <[6] 5>2 <6 4>4 \bo <[5 3]>
+  r2 <7>4. \bc <[6 5]>8
+  r4 <6 5>2 <7->4
+  <6 4> <7! \t> \bo <[8] 3>4 \bc <[7-]>
+  <6 4> <7! \t> <[8 3]>2 %65
+  <6 5>2 <6 [5]>4 \bo <[5] 4>8 \bc <[\t] _!>
+  r2 <[9]>4 <5>
+  <[5]>2 <6>
+  r4 q <9 3>8 <\t \t> <10 5> <\t \t>
+  <6 5>2 q %70
+  r <6 4>
+  <5 3> <6 4>
+  <[5] 3>1
+  <5>4 <5 4>8 <\t 3> r2
+  r <5>4 <5 4>8 <\t 3> %75
+  r1 %76 finis
+}

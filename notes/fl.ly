@@ -215,3 +215,73 @@ LaetatusFlauto = {
     es r r2\fermata \bar "|." %65 finis
   }
 }
+
+IerusalemFlauto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoIerusalem
+    f'8\f \appoggiatura g32 f16 e32 f a8 c f r r4
+    r2 r4 a,16 c b g^\critnote
+    f8 \appoggiatura g32 f16 e32 f a8 c^\critnote f r r4
+    r2 r4 c8 c
+    c r c c c2 %5
+    a4 r r2
+    r4 c8 c c4 r
+    r c8 c a4 f'~
+    f2 f4 f
+    f c8 a g4 f %10
+    f e16 c e g c4 c
+    c r r2
+    r r4 g
+    e' d2 d4
+    c r r2 %15
+    e8 r c r g4. g8
+    g4 g8 g g4 r
+    R1
+    cis4. cis8 cis d d d
+    h2 r %20
+    e4 c r2
+    f4 d e c
+    R1*2
+    r2 r8 f16 d c8 h %25
+    c4 r r2
+    R1*5 %31
+    r8 e\fE d cis d r d r
+    d,4 r r r8 cis'
+    d d r4 r cis
+    d2 f %35
+    d4 b b2~
+    b a
+    b4 r r2
+    R1
+    r8 es16 c b8 a b4 r %40
+    r8 d(\p c b) a4 b8 r
+    R1
+    r2 r8 a16 g f8 f
+    R1*7 %50
+    r2 r4 d'8\f d
+    g,4 r r2
+    r c4 e
+    f f2 f4
+    f f2 f4 %55
+    f r r2
+    R1
+    r8 c16 c c8 c c2
+    c8 c\p g e' c4. b16( g)
+    f8\f \appoggiatura g32 f16 e32 f a8^\critnote c f r r4 %60
+    r2 r4 c8 c
+    c r c c c2
+    r r4 a
+    b~ b16 d c b a4 f'
+    b,~ b16 d c b a4 f' %65
+    d c r2
+    r8 g c b16 c a4 r
+    R1*3 %70
+    f'4 a, b d
+    f a, b b
+    a f'~ f8 c c c
+    r2 f4 f~
+    f8 c c c r2 %75
+    f4 e f r\fermata \bar "|." %76 finis
+  }
+}

@@ -292,35 +292,123 @@
   %     \midi { \tempo 4 = 75 }
   %   }
   % }
+  % \bookpart {
+  %   \section "4" "Nisi Dominus"
+  %   \addTocEntry
+  %   \score { %\articulate
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = \transposedNameShort "cl" "B" "flat"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             % \transpose c b,
+  %             \NisiClarinettoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             % \transpose c b,
+  %             \NisiClarinettoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "fag"
+  %           \NisiFagotto
+  %         }
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff <<
+  %           \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "E" "flat" "1, 2" }
+  %           % \transpose c es,
+  %           \partCombine #'(0 . 10) \NisiCornoI \NisiCornoII
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \NisiViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \NisiViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \NisiViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "S"
+  %           \new Voice = "Soprano" { \dynamicUp \NisiSoprano }
+  %         }
+  %         \new Lyrics \lyricsto Soprano \NisiSopranoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \NisiAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \NisiAltoLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \NisiTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \NisiTenoreLyrics
+
+  %         \new Staff {
+  %           \set Staff.instrumentName = "B"
+  %           \new Voice = "Basso" { \dynamicUp \NisiBasso }
+  %         }
+  %         \new Lyrics \lyricsto Basso \NisiBassoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \NisiOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \NisiBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 105 }
+  %   }
+  % }
   \bookpart {
-    \section "4" "Nisi Dominus"
+    \section "5" "Lauda Ierusalem"
     \addTocEntry
     \score { %\articulate
       <<
         \new StaffGroup <<
+          \new Staff \with { \smallStaffDistance } {
+            \set Staff.instrumentName = "fl"
+            \IerusalemFlauto
+          }
           \new GrandStaff \with { \smallGroupDistance } <<
-            \set GrandStaff.instrumentName = \transposedNameShort "cl" "B" "flat"
+            \set GrandStaff.instrumentName = \transposedNameShort "cl" "C" ""
             \new Staff {
               \set Staff.instrumentName = "1"
-              % \transpose c b,
-              \NisiClarinettoI
+              \IerusalemClarinettoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              % \transpose c b,
-              \NisiClarinettoII
+              \IerusalemClarinettoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "fag"
-            \NisiFagotto
+            \IerusalemFagotto
           }
         >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "E" "flat" "1, 2" }
-            % \transpose c es,
-            \partCombine #'(0 . 10) \NisiCornoI \NisiCornoII
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "F" "" "1, 2" }
+            % \transpose c f,
+            \partCombine #'(0 . 10) \IerusalemCornoI \IerusalemCornoII
           >>
         >>
         \new StaffGroup <<
@@ -328,54 +416,54 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \NisiViolinoI
+              \IerusalemViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \NisiViolinoII
+              \IerusalemViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \NisiViola
+            \IerusalemViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
             \set Staff.instrumentName = "S"
-            \new Voice = "Soprano" { \dynamicUp \NisiSoprano }
+            \new Voice = "Soprano" { \dynamicUp \IerusalemSoprano }
           }
-          \new Lyrics \lyricsto Soprano \NisiSopranoLyrics
+          \new Lyrics \lyricsto Soprano \IerusalemSopranoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \NisiAlto }
+            \new Voice = "Alto" { \dynamicUp \IerusalemAlto }
           }
-          \new Lyrics \lyricsto Alto \NisiAltoLyrics
+          \new Lyrics \lyricsto Alto \IerusalemAltoLyrics
 
           \new Staff {
             \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \NisiTenore }
+            \new Voice = "Tenore" { \dynamicUp \IerusalemTenore }
           }
-          \new Lyrics \lyricsto Tenore \NisiTenoreLyrics
+          \new Lyrics \lyricsto Tenore \IerusalemTenoreLyrics
 
           \new Staff {
             \set Staff.instrumentName = "B"
-            \new Voice = "Basso" { \dynamicUp \NisiBasso }
+            \new Voice = "Basso" { \dynamicUp \IerusalemBasso }
           }
-          \new Lyrics \lyricsto Basso \NisiBassoLyrics
+          \new Lyrics \lyricsto Basso \IerusalemBassoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \NisiOrgano
+            \IerusalemOrgano
           }
         >>
-        \new FiguredBass { \NisiBassFigures }
+        \new FiguredBass { \IerusalemBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 105 }
+      \midi { \tempo 4 = 80 }
     }
   }
 }

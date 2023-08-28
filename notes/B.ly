@@ -613,3 +613,130 @@ NisiBassoLyrics = \lyricmode {
   a --
   men. %122 finis
 }
+
+IerusalemBasso = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \autoBeamOff \tempoIerusalem
+    R1*2
+    \mvTr f4\fE^\tutti f f f8 f
+    e4 f8 f c8. c16 c8 r
+    c'4 c c,4. e8 %5
+    f d b([ c)] f,4 r
+    r2 f'8. f16 f4
+    c8. c16 c4 f4. es8
+    d4 b a4.( c8)
+    f4 f e! f8 f %10
+    c4 c r c'8 c
+    b4 b a a8 a
+    f4 f8 d h4 r8 h
+    c4 f8 fis16 fis g4 g8 g
+    c,4 r r2 %15
+    r8 c' c c16 c c4 c,
+    h c g' g8 g
+    g8. g16 g8 g c,4 c
+    a'4. a16 a d,4 d8 d
+    g4 g8 g g8. g16 g4 %20
+    c, c c c8 c'
+    a8. a16 h4 gis a
+    fis g e f
+    d c h8 c g'4
+    c, r r2 %25
+    R1*6 %31
+    r2 \mvTr d4\fE^\tuttiE d8 d
+    d4 d a'2
+    d,4 r a' a8 a,
+    d4 d f f %35
+    b,8. b16 b4 b' b8 b
+    b4 b, f' r
+    b, r8 b es es f4
+    b, r r2
+    R1*12 %51
+    r8 \mvTr g'\fE^\tuttiE g g g8. g16 g4
+    r c,8 c c4 c
+    f8 f f f f4 f8 f
+    f4 f f r8 f %55
+    f a g f e4 e8 e
+    f f e e d4( g)
+    c, r r2
+    R1
+    f4 f8 f f4 f %60
+    e f8 f c8. c16 c8 r
+    c4 c c e8 e
+    f([ d b c)] f,4 f'8 f
+    f f f f f8. f16 f8 f
+    f f f4 f d8 d %65
+    h h16 h c8 e f f g4
+    c, r8 c f[ e16 f] d8[ c16 d]
+    b!4 g' e8[ d16 e] c8[ d16 e]
+    f8[ e16 f] a8[ g16 a] b8[ a g f]
+    e[ d16 e] f8 a, b([ a16 b] c4) %70
+    f f8 f f2
+    f4 f8 f f2
+    f4 r r f8 f
+    e f c4 f r
+    r f8 f e f c4 %75
+    f c f r\fermata \bar "|." %76 finis
+  }
+}
+
+IerusalemBassoLyrics = \lyricmode {
+  Lau -- da, lau -- da, Ie -- %3
+  ru -- sa -- lem, Do -- mi -- num,
+  lau -- da De -- um %5
+  tu -- um, Si -- on.
+  Quo -- ni -- am,
+  quo -- ni -- am con -- for --
+  ta -- vit se --
+  ras por -- ta -- rum tu -- %10
+  a -- rum, be -- ne --
+  di -- xit fi -- li -- is
+  tu -- is in te, in
+  te, fi -- li -- is tu -- is in
+  te. %15
+  Qui po -- su -- it fi -- nes
+  tu -- os pa -- cem, et
+  a -- di -- pe fru -- men -- ti
+  sa -- ti -- at te. Qui e --
+  mit -- tit e -- lo -- qui -- um %20
+  su -- um ter -- rae, ve --
+  lo -- ci -- ter cur -- rit
+  ser -- mo e -- ius,
+  cur -- rit ser -- mo e --
+  ius. %25
+
+  Mit -- tit chry -- %32
+  stal -- lum su --
+  am si -- cut buc --
+  cel -- las, an -- te %35
+  fa -- ci -- em fri -- go -- ris
+  e -- ius quis,
+  quis, quis su -- sti -- ne --
+  bit?
+
+  Non fe -- cit ta -- li -- ter %52
+  o -- mni na -- ti --
+  o -- ni, et iu -- di -- ci -- a
+  su -- a non, non, %55
+  non ma -- ni -- fe -- sta -- vit, ma --
+  ni -- fe -- sta -- vit e --
+  is.
+
+  Glo -- ri -- a Pa -- tri, %60
+  Pa -- tri et Fi -- li -- o
+  et Spi -- ri -- tu -- i
+  San -- cto, si -- cut
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per et in %65
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  men, a -- _ _
+  _ men, a -- _
+  _ _ _
+  _ _ men, a -- %70
+  men, a -- men, a --
+  men, a -- men, a --
+  men, a -- men,
+  a -- men, a -- men,
+  a -- men, a -- men, a -- %75
+  men, a -- men. %76 finis
+}

@@ -421,3 +421,86 @@ NisiViolinoII = {
     q2.\fermata \bar "|." %124 finis
   }
 }
+
+IerusalemViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoIerusalem
+    <f a,>8\f \appoggiatura g32 f16 e32 f a8 c f \appoggiatura g32 f e f g a16( f c a)
+    b' g e c a' f e f \tuplet 3/2 8 { f[ e d] d c b } a c b g
+    f8 \appoggiatura g32 f16 e32 f a8 c f \appoggiatura g32 f e f g a16( f c a)
+    b' g e c a' f c a r a c a g e c c
+    c8 \tuplet 3/2 8 { c'16 d c } e8 \tuplet 3/2 8 { e16 f e } g a b g e c g' b, %5
+    a f' e f g, f' g, e' f, f a c f a g f
+    e g e c b c g c a f a c f a g f
+    e g e c b c g c a f a c f f f f
+    r f, b d f f f f r f, a c f f f f
+    \appoggiatura g32 f16 e f g a f c a b8 g' a, f' %10
+    r16 a, c a g e c c c' g e e e' c g g
+    g' e c c g' e c c g' e cis a a' a a a
+    a f d a a' a a a r f d' c h a g f
+    e c' c c d, c' c c d, c' d, c' d, h' d, h'
+    c,8 \tuplet 3/2 8 { e16 d c } e8 \tuplet 3/2 8 { g16 f e } c'8 \tuplet 3/2 8 { a16 g f e[ d c] h c d } %15
+    c8 \tuplet 3/2 8 { c16 d c } e8 \tuplet 3/2 8 { e16 f e } g8 g~ g16 e c g
+    f'8 d' e, c' r16 e, g e d h g d
+    r d' f d h g f d r e' g e c g e c
+    r e' g e cis a g e g e f d f' d a f
+    r f' d' h d h f d r h' d c h a g f %20
+    e c' e c e c g e r c' e d c h a g
+    f e f c d cis d h e dis e h c h c a
+    d'! cis d a b! a b g c h c g a f c a
+    a' f d a a' f d a f' d' e, c' d,8 h'
+    c, e16 f g e c g a8 a16 f e8 d %25
+    e4\p e f4. f8
+    e d g fis fis4 g
+    g8 g gis gis a a g g
+    f f a g16 f f4 e
+    a4. a8 g4 b8 g16 f! %30
+    e8 f e e f f'16\f g a f d a
+    b8 b16 g f8 e d \tuplet 3/2 8 { d'16 e d } f8 \tuplet 3/2 8 { f16 g f }
+    a8 a~ a16 f e d cis e cis a g' g g g
+    f d a f a' f e d cis e cis a g' g g g
+    f a, a a d d d d es es es es es es es es %35
+    b' f d es f d b f b' g es f g es b g
+    b' f d es f d b f es' c' a b c a f es
+    d8 b'16 a g f es d c b' c, b' c, a' c, a'
+    b,8 d16 es f d b f d8 b''16 c d b f d
+    g8 g,16 es d8 c d d\p r d %40
+    d f es d c4 d
+    g4.( f16 es) d4 c8 r
+    a' a r f r c16 b a8 a
+    f'4 f8 es es4 d8 d
+    d4. d8 g8. h16 c8 c %45
+    g r g g c c4 c8
+    b!4. a8 g g4 f8
+    f4 e r2
+    r8 g g g r f f f
+    r a a a b b a4 %50
+    g8 b'16\fE c d b g d es8 es16 c b8 a
+    g b'16 c d b g d b8 g'16 a b a g f
+    e!8 g16 a b g e c b8 e16 f g e c b
+    a f a c f f f f d b d f b b b b
+    a f c a f' f f f d b d f b b b b %55
+    a8 c, b a g e'16 f g e c b
+    a8 f16 a c c c c c c c c h h h h
+    c8 e4 f8 e f e f
+    e4 r r8 g,,\p g g
+    a\f \appoggiatura g'32 f16 e32 f a8 c f \appoggiatura g32 f e f g a16( f c a) %60
+    b' g e c a' f c a r a c a g e c c
+    c8 \tuplet 3/2 8 { c'16 d c } e8 \tuplet 3/2 8 { e16 f e } g a b g e c g' b,
+    a f' e f g, f' g, e' f c a c a f a c
+    b f d f b d c b a f a c f c a c
+    b f d f b d c b a f a c f f f f %65
+    d' f, f f e c' c c a f e d c8 h
+    c g c b16 c a4 \once \tieDashed f~
+    f^\critnote d g8 f16 g e8 f16 g
+    a8 g16 a f8 e16 f d4 g~
+    g f2 e4 %70
+    f16 f a c f f f f d b d f b b b b
+    a f c a f' f f f d b d f b f d b
+    a f a c f c f a c a f c a' f c a
+    b g' a, f' g, f' g, e' f f, a c f c f a
+    c a f c a' f c a b g' a, f' g, f' g, e' %75
+    f4 <e g,> <f a,> r\fermata \bar "|." %76 finis
+  }
+}

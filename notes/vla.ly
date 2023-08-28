@@ -423,3 +423,86 @@ NisiViola = {
     c2.\fermata \bar "|." %124 finis
   }
 }
+
+IerusalemViola = {
+  \relative c' {
+    \clef alto
+    \key f \major \time 4/4 \tempoIerusalem
+    f,8\f f' c a f f' r f
+    e c f a b b, c c
+    f, f' c a f f' r f
+    e c f f, c' c' c, r
+    c r c r c c' r c, %5
+    f d b c f f, r f'
+    c c e e f f, r f'
+    c c e e f f4 es8
+    d b d b a f a c
+    f f4 f8 e! c f a %10
+    c c, c c c c c' c
+    b b b b a a a, a
+    f' f d d g g, r g'
+    c,! e f fis g g g, g
+    c r c r c f g g, %15
+    c r c r r16 c e g c8 c,
+    h g c e g g, g g
+    g' g, r g' c, c, r c'
+    a a' r a, d d, r d'
+    g, g' r g g, h d g %20
+    c, c, r c c c' c c
+    c c d d h h c c
+    a a' b! b g g a a
+    f f d c h c16 e g8 g
+    e4 r8 e f f g g %25
+    c,4\p c d4. d8
+    e g e a a4 g
+    c,8 c c c a' a a a
+    d, r d d a'4. cis,16( e)
+    d8 d d d d4 r8 g %30
+    a4. a8 d, d,\f r f'
+    g g a a d, r d r
+    r16 d f a d8 d, a'2
+    a4 a,8 a a4 a'
+    a8 a a a c! c c c %35
+    b b, b b b' b, b b
+    b' b, b b f' f, r f'
+    b, b' r b, g' g f f
+    d4 r8 d d4 r8 d
+    es es f f b, b\p r b %40
+    b r r8 b f'4. g8
+    es h c es f f, f' r
+    f f r c r a16 b c8 c
+    d4 f8 a a4 b8 as
+    g as g f es c r c %45
+    h4 r8 g' g f4 f8
+    f4. es8 d4 c8 c
+    c c, c' r r2
+    r8 c c c r c c c
+    r d d d d es4 d8 %50
+    g g,\f r g' c, c d d
+    g, g' g g g, g' g g
+    c, c, c' c c c, c' c
+    c4 a b d
+    f a, b d %55
+    c8 a' g f e c r c
+    f f e e a a g g
+    g c,4 f8 c f c f
+    c4 r r8 b\p b b
+    f\f f' c a f f' r f %60
+    e c f f, c' c' c, r
+    c r c r c c' r c,
+    f d b c f, f' es es
+    d d e e f f es es
+    d d e e f f f f %65
+    g g g g a a g4^\critnote
+    e c2 d4~
+    d2 c~
+    \once \tieDashed c4~ c8 b16 c d2
+    c4. c8 d4 c8. b16 %70
+    a8 f' f f f, f' f f
+    f, f' f f f, f' f f
+    f r f r r f f f
+    e f c c f4 f~
+    f8 f f f e f c c %75
+    f4 c c r\fermata \bar "|." %76 finis
+  }
+}
