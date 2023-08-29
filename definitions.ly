@@ -1,9 +1,8 @@
 \version "2.24.0"
 
 #(define option-movement-title-format "number-title")
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
-\include "ees_articulate.ly"
 
 
 tempoDixit = \tempoMarkup "Allegro"
@@ -13,8 +12,7 @@ tempoLaetatus = \tempoMarkup "Allegretto"
 tempoNisi = \tempoMarkup "Moderato"
 tempoIerusalem = \tempoMarkup "Allegro"
 tempoMagnificat = \tempoMarkup "Adagio"
-  tempoMagnificatB = \tempo 4 = 120
-  % tempoMagnificatB = \tempoMarkup "Allegro"
+  tempoMagnificatB = \tempoMarkup "Allegro"
 
 
 \include "notes/fl.ly"

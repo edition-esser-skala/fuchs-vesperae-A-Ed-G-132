@@ -4,7 +4,7 @@ composer:
 title: Vesperæ Solennes
 subtitle: in Honorem Conceptionis B:M:V
 genre: vesper
-scoring: S, A, T, B (solo), S, A, T, B (coro), fl, 2 cl (\flat B/C), fag, 2 cor (\flat E/F/G/\flat B), 2 clno (\flat B), timp (\flat B–F), 2 vl, vla, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), fl, 2 cl (\flat B/C), fag,\\2 cor (\flat E/F/G/\flat B), 2 clno (\flat B), timp (\flat B–F), 2 vl, vla, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
@@ -20,7 +20,7 @@ parts:
   cl1: Clarinetto I in \flat B/C
   cl2: Clarinetto II in \flat B/C
   cor12: Corno I, II in \flat E/F/G/\flat B
-  ottoni: Clarino I, II in C\\Timpani in C–G
+  ottoni: Clarino I, II in \flat B\\Timpani in \flat B–F
 extra_abbreviations:
   vlc:
   vlne:
