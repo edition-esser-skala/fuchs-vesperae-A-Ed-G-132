@@ -285,3 +285,118 @@ IerusalemFlauto = {
     f4 e f r\fermata \bar "|." %76 finis
   }
 }
+
+MagnificatFlauto = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoMagnificat
+    b'8.\f b16 b8 b d f b b
+    b4 d8 f es8. b16 g8 r
+    a2\p b
+    e\f f
+    f1 \noBreak %5
+    f,4 r r \once \slurDashed f'16(\pE es d c) \bar "||"
+    \time 3/4 \tempoMagnificatB b4\f r f \noBreak
+    a a a
+    a r c
+    a b r %10
+    r f' a,
+    b r r
+    r a a
+    a r a
+    a b b8. b16 %15
+    b2 b8. b16
+    b2 b8. b16
+    c4 f r
+    R2.
+    b,2 a4 %20
+    b r r
+    \once \slurDashed f'16( es d es) f8 d b4
+    r r8 c b a
+    b4 r r
+    R2.*14 %38
+    d4\fE r d8. d16
+    d4 r r %40
+    R2.
+    a
+    a4 a a
+    a2.
+    a %45
+    a
+    b4 r d
+    es r c
+    b b b
+    \once \slurDashed d16( c b c) d8 b c a %50
+    b4 r r
+    \once \slurDashed d16( c b c) d4 b
+    r r8 c b a
+    b4 r r
+    R2.*11 %65
+    g4\fE r r
+    \once \slurDashed d'16( c b c) d8 b g4
+    R2.*2
+    r4 d' d %70
+    d2 c4~
+    c b8 b b b
+    f'!2.
+    es4 r r
+    R2.*2 %76
+    es2 d4
+    es8 es, \once \slurDashed g16( f es f) g8 es
+    \once \slurDashed b'16( as g as) b8 g es4
+    R2.*23 %102
+    c'2.\fE
+    c4 c c
+    h d f, %105
+    es r r
+    r c' h
+    c r r
+    \once \slurDashed es16( d c d) es8 c g4
+    r r8 d' c h %110
+    c4^\critnote r r
+    R2.
+    e,4(\p f g)
+    b2 as4
+    R2.*7 %121
+    r4 f'\fE f
+    f, a c
+    f r r
+    R2. %125
+    b,\f
+    a4 a a
+    a2.
+    b4 r r
+    c2 es,4 %130
+    d r r
+    c'2 es,4
+    d r r
+    R2.*4 %137
+    r8 c' c c c c
+    c a f4 a
+    c4. c8 c c %140
+    a4 f' es!
+    d r r
+    R2.*2
+    f2 es8 c %145
+    b4 r r
+    R2.*2
+    r4 r f'~
+    f8 d b4 c %150
+    b r r
+    R2.*3
+    b2. %155
+    b4 b b
+    b2 r4
+    a2 c8 a
+    b4 r d8 b
+    g es d b' a c %160
+    b4 r b
+    a r r
+    b b a
+    b r r
+    a a a %165
+    b r r
+    r r a
+    b r r\fermata \bar "|." %168 finis
+  }
+}

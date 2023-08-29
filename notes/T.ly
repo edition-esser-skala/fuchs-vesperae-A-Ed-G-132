@@ -754,3 +754,225 @@ IerusalemTenoreLyrics = \lyricmode {
   a -- men, a -- men, a -- %75
   men, a -- men. %76 finis
 }
+
+MagnificatTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key b \major \time 4/4 \autoBeamOff \tempoMagnificat
+    r2 r4 r8 \mvTr d\fE^\tutti
+    b8. b16 d8 d b8. b16 b8 r
+    c4\p c8 c b4 b
+    g4.\f g8 a4 r
+    R1 \noBreak %5
+    R \bar "||"
+    \time 3/4 \tempoMagnificatB R2.*5 %11
+    d4 d b
+    a2^\critnote a4
+    c4. c8 a4
+    a b r %15
+    R2.
+    r4 r b
+    c2 c4
+    b4. b8 es es
+    d2( es4) %20
+    d r r
+    R2.*20 %41
+    \mvTr a2\fE^\tutti a4
+    a2 a4
+    e'2 e4
+    d d d %45
+    c!2 c4
+    b r b
+    c2 c4
+    b2 b4
+    d2( es4) %50
+    d r r
+    R2.*3
+    r4 \mvTr d\pE^\solo d %55
+    d2 d4
+    d4. d8 d4
+    d( b) g
+    es'2 d4
+    c4. c8 b4 %60
+    r as as
+    as4. as8 g4
+    r r h
+    c4. d8 es4
+    g,2( \grace b8 a!4) %65
+    g r r
+    R2.*2
+    \mvTr d'4\fE^\tutti d d
+    d4. d8 d4 %70
+    d d d8 d
+    d4 d d
+    d d d
+    es!2 es4
+    es2 es4 %75
+    es2 c4
+    b2.
+    b4 r r
+    R2.*20 %98
+    \mvTr c4\fE^\tutti c c
+    d4. d8 d4 %100
+    d d d
+    d c r
+    c2 c4
+    c2 c4
+    h d d %105
+    c4. c8 c4
+    c( es f)
+    es r r
+    R2.*17 %125
+    \mvTr d4.\fE^\tutti d8 b4
+    a a a
+    c2 c4
+    b d b
+    c4. c8 c4 %130
+    b b b8 b
+    c4 c c8 c
+    d8. d16 b8 b b es
+    es4 d d8 d
+    d8. d16 c4 c8 c %135
+    c c d4( c8.[ b16)]
+    a4 r c8 c
+    c8. c16 c8 c c c
+    c4 c c8 c
+    c8. c16 c4 c8 c %140
+    c c d4( c)
+    b r b8 d
+    c8. c16 c4 c8 c
+    b4 b b
+    c r c %145
+    b b g
+    es'2 f4
+    d2 es4
+    c2 d4~
+    d8 d c2 %150
+    d4 r r
+    R2.
+    r8 b d16[ c b c] d8[ b]
+    f'4 f f
+    f d d8 d %155
+    f2.
+    es4 es es
+    c2.
+    b4 b d
+    es8 es d4( es) %160
+    d r b
+    a r a
+    b b( a)
+    b r b
+    a r a %165
+    b b( a)
+    b r a
+    b r r\fermata \bar "|." %168 finis
+  }
+}
+
+MagnificatTenoreLyrics = \lyricmode {
+  Ma --
+  gni -- fi -- cat, ma -- gni -- fi -- cat
+  a -- ni -- ma me -- a
+  Do -- mi -- num.
+
+  Et ex -- ul -- %12
+  ta -- vit
+  spi -- ri -- tus
+  me -- us %15
+
+  in
+  De -- o
+  sa -- lu -- ta -- ri
+  me -- %20
+  o.
+
+  Qui -- a %42
+  fe -- cit
+  mi -- hi
+  ma -- gna, qui %45
+  po -- tens
+  est, et
+  san -- ctum
+  no -- men
+  e -- %50
+  ius.
+
+  Et mi -- %55
+  se -- ri --
+  cor -- di -- a
+  e -- ius
+  a pro --
+  ge -- ni -- e %60
+  in pro --
+  ge -- ni -- es
+  ti --
+  men -- ti -- bus
+  e -- %65
+  um.
+
+  Fe -- cit po -- %69
+  ten -- ti -- am %70
+  in bra -- chi -- o
+  su -- o, dis --
+  per -- sit su --
+  per -- bos
+  men -- te %75
+  cor -- dis
+  su --
+  i.
+
+  Su -- sce -- pit %99
+  Is -- ra -- el %100
+  pu -- e -- rum
+  su -- um,
+  re -- cor --
+  da -- tus
+  mi -- se -- ri -- %105
+  cor -- di -- ae
+  su --
+  ae.
+
+  Glo -- ri -- a %126
+  Pa -- tri et
+  Fi -- li --
+  o et Spi --
+  ri -- tu -- i %130
+  San -- cto, si -- cut
+  e -- rat in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in
+  sae -- cu -- la sae -- cu -- %135
+  lo -- rum, a --
+  men, in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in
+  sae -- cu -- la sae -- cu -- %140
+  lo -- rum, a --
+  men, et in
+  sae -- cu -- la sae -- cu --
+  lo -- rum, a --
+  men, a -- %145
+  men, a -- men,
+  a -- _
+  _ _
+  _ _
+  men, a -- %150
+  men,
+
+  a -- _ _
+  men, a -- men,
+  a -- men, a -- men, %155
+  a --
+  men, a -- men,
+  a --
+  men, a -- men,
+  a -- men, a -- %160
+  men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- %165
+  men, a --
+  men, a --
+  men. %168 finis
+}

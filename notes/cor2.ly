@@ -370,3 +370,119 @@ IerusalemCornoII = {
     e4 g e r\fermata \bar "|." %76 finis
   }
 }
+
+MagnificatCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoMagnificat
+    g'8.\f g16 g8 g r4 g8 g
+    g4. g8 c2
+    d1\p
+    r2 d\f
+    d1 \noBreak %5
+    d2\p d8 d d d \bar "||"
+    \time 3/4 \tempoMagnificatB g,4\f r g \noBreak
+    d' d d
+    d r r
+    r g, g %10
+    c8 c d4 d
+    g,2 g4
+    d' d d
+    d2 r4
+    r g, g %15
+    g2.
+    g2 r4
+    R2.
+    g2 c4
+    d2 d4 %20
+    g, r g8. g16
+    g4 r g
+    R2.*23 %45
+    d'2.\fE
+    g,4 g g
+    d'2.
+    g,4 g g
+    r d' d %50
+    g, r g8. g16
+    g4 r g
+    r r d'
+    g, r r
+    R2.*11 %65
+    e4\f r e8. e16
+    e4 r e
+    R2.*6 %73
+    e2 e4
+    c'2 c4 %75
+    c4. c8 c c
+    c2 g4
+    e r e8. e16
+    c'4 r c
+    R2. %80
+    r4 e,\p e
+    e r e
+    g2.~
+    g4 c r
+    R2.*14 %98
+    e,2.\f
+    e4 e e %100
+    e r8 e16 e e8 e
+    e4 e r
+    R2.*2
+    e4 e e %105
+    e2 e4
+    r e e
+    e r e8. e16
+    e4 r e
+    r r e %110
+    e r r
+    R2.*3
+    g4\p c d %115
+    d2 c4
+    e2.
+    e
+    d
+    d %120
+    e
+    d4 d\f d
+    d2.
+    d4 r r
+    R2. %125
+    g,\f
+    d'4 d d
+    d2.
+    g,
+    d'4 d8 d d d %130
+    g,2.
+    d'4 d8 d d d
+    g,4 r r
+    R2.*4 %137
+    e'4 e8 e e e
+    d4 r r
+    e8 e e e e e %140
+    d8.[ d16 d8. d16 d8. d16]
+    g,4 r g
+    d' d8 d d d
+    g,4 r g
+    d' d8 d d d %145
+    g,4 r r
+    R2.*2
+    r4 r g~
+    g8 g d'4 d %150
+    g, r r
+    R2.*3
+    g2. %155
+    g4 g g
+    g2.
+    R
+    g2 g4
+    c d d %160
+    g, r g
+    d'2.
+    g,4 c d
+    g, r g
+    d' d d %165
+    g, c d
+    g, r d'
+    g, r r\fermata \bar "|." %168 finis
+  }
+}

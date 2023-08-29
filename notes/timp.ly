@@ -45,3 +45,81 @@ DixitTimpani = {
     c r r2\fermata \bar "|." %86 finis
   }
 }
+
+MagnificatTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoMagnificat
+    c8.\f c16 c8 c r2
+    c8 r16 c32 c c8 c c r16 c32 c c8 c
+    g2\p\trill g4 r
+    r2 g4\f r
+    g r g r \noBreak %5
+    g r r2 \bar "||"
+    \time 3/4 \tempoMagnificatB c4\f r c \noBreak
+    g r8 g16 g g8 g
+    g4 r r
+    R2. %10
+    r4 g g
+    c r8 c16 c c8 c
+    g4 g8 g g g
+    g4 r r
+    r r c8 c %15
+    c4 r c8 c
+    c4 r c
+    R2.*2
+    r4 g8 g g g %20
+    c4 r c8. c16
+    c4 r c
+    r r g8 g
+    c4 r r
+    R2.*21 %45
+    g4\fE r8 g16 g g8 g
+    c4 r c
+    g8 g16 g g8 g g g
+    c4 r c
+    g r g8 g %50
+    c4 r c8 c
+    c4 r c
+    r r g8 g
+    c4 r r
+    R2.*67 %121
+    r4 g\fE g
+    g g8 g16 g g8 g
+    g4 r r
+    R2. %125
+    c4\fE r c
+    g g8 g g g
+    g4 r g
+    c r c
+    g r r %130
+    c r8 c16 c c8 c
+    g4 r r
+    R2.*8 %140
+    g4 r8 g16 g g8 g
+    c4 r c
+    g r r
+    c r8 c16 c c8 c
+    g4 r r %145
+    c r r
+    R2.*2
+    r4 r c8 c
+    c4 r g %150
+    c r r
+    R2.*3
+    c4 r c8 c %155
+    c4 r c8 c
+    c4 r r
+    R2.
+    c4 r r
+    r r g8 g %160
+    c4 r c
+    g r g8 g
+    c4 r g
+    c r c
+    g r g8 g %165
+    c4 r g
+    c r g
+    c r r\fermata \bar "|." %168 finis
+  }
+}

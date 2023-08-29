@@ -760,3 +760,235 @@ IerusalemAltoLyrics = \lyricmode {
   a -- men, a -- men, a -- %75
   men, a -- men. %76 finis
 }
+
+MagnificatAlto = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \autoBeamOff \tempoMagnificat
+    r2 r4 r8 \mvTr f\f^\tutti
+    f8. f16 f8 f g8. g16 es8 r
+    es4\p es8 es d4 d
+    e4.\f e8 f4 r
+    R1 \noBreak %5
+    R \bar "||"
+    \time 3/4 \tempoMagnificatB R2.*5 %11
+    f4 f f
+    f2 f4
+    es4. es8 es4
+    es d f %15
+    g f f8 f
+    g4 f f
+    f2 f4
+    f4. f8 g g
+    f2. %20
+    f4 r r
+    R2.*20 %41
+    \mvTr f2\fE^\tutti f4
+    e2 e4
+    g2 g4
+    f d^\critnote a' %45
+    a2 es!4
+    d r f
+    f2 f4
+    f( g) g
+    f2. %50
+    f4 r r
+    R2.*17 %68
+    \mvTr g4\fE^\tutti g g
+    a4. a8 a4 %70
+    a a a8 a
+    a4^\critnote g g
+    as as as
+    g2 es4
+    es2 es4 %75
+    as2 as4
+    g2( f4)
+    g r r
+    R2.*2 %80
+    r4 r \mvTr b\pE^\solo
+    g4. f8 es g
+    as4 f b
+    as g g
+    a2 a4 %85
+    b2 b4
+    b2 b4
+    a r r
+    f f c
+    d2 f4 %90
+    g g d
+    es!2 c4
+    as' r as
+    g2 g4
+    g2 g4 %95
+    g2 g4
+    as g2
+    c,4 r r
+    \mvTr g'\fE^\tutti g g
+    g4. g8 g4 %100
+    g g g
+    g g r
+    as2 as4
+    g2 g4
+    g g g %105
+    g4. g8 g4
+    as( g2)
+    g4 r r
+    R2.*17 %125
+    \mvTr f4.\fE^\tuttiE f8 f4
+    f f f
+    es2 es4
+    d f f
+    f4. f8 f4 %130
+    f f f8 f
+    f4 f f8 f
+    f8. f16 g8 g b b
+    a4 a a8 a
+    g8. g16 g4 g8 g %135
+    f f f4( e)
+    f r f8 f
+    g8. g16 g8 g g g
+    f4 f f8 f
+    g8. g16 g4 g8 g %140
+    f f f2
+    f4 r f8 f
+    f8. f16 f4 f8 f
+    f4 f f
+    f r f %145
+    f f g~
+    g a8[ g] f4~
+    f g8[ f] \once \tieDashed es4~
+    es f8[ es] d4
+    f8 f f2 %150
+    f4 r r
+    r8 f a16[ g f g] a8[ f]
+    b4 b b
+    b( a) a
+    b( f) f %155
+    as2.
+    g4 g g
+    es2.
+    d4 f f
+    g8 g f2 %160
+    f4 r f
+    f r f
+    f g( f8.[ es16)]
+    d4 r f
+    f r f %165
+    f g( f8.[ es16)]
+    d4 r f
+    f r r\fermata \bar "|." %168 finis
+  }
+}
+
+MagnificatAltoLyrics = \lyricmode {
+  Ma --
+  gni -- fi -- cat, ma -- gni -- fi -- cat
+  a -- ni -- ma me -- a
+  Do -- mi -- num.
+
+  Et ex -- ul -- %12
+  ta -- vit
+  spi -- ri -- tus
+  me -- us in %15
+  De -- o sa -- lu --
+  ta -- ri, in
+  De -- o
+  sa -- lu -- ta -- ri
+  me -- %20
+  o.
+
+  Qui -- a %42
+  fe -- cit
+  mi -- hi
+  ma -- gna, qui %45
+  po -- tens
+  est, et
+  san -- ctum
+  no -- men
+  e -- %50
+  ius.
+
+  Fe -- cit po -- %69
+  ten -- ti -- am %70
+  in bra -- chi -- o
+  su -- o, dis --
+  per -- sit su --
+  per -- bos
+  men -- te %75
+  cor -- dis
+  su --
+  i.
+
+  De -- %81
+  po -- su -- it po --
+  ten -- tes de
+  se -- de et
+  ex -- al -- %85
+  ta -- vit
+  hu -- mi --
+  les.
+  E -- su -- ri --
+  en -- tes %90
+  im -- ple -- vit
+  bo -- nis
+  et, et
+  di -- vi --
+  tes di -- %95
+  mi -- sit
+  in -- a --
+  nes.
+  Su -- sce -- pit
+  Is -- ra -- el %100
+  pu -- e -- rum
+  su -- um,
+  re -- cor --
+  da -- tus
+  mi -- se -- ri -- %105
+  cor -- di -- ae
+  su --
+  ae.
+
+  Glo -- ri -- a %126
+  Pa -- tri et
+  Fi -- li --
+  o et Spi --
+  ri -- tu -- i %130
+  San -- cto, si -- cut
+  e -- rat in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in
+  sae -- cu -- la sae -- cu -- %135
+  lo -- rum, a --
+  men, in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in
+  sae -- cu -- la sae -- cu -- %140
+  lo -- rum, a --
+  men, et in
+  sae -- cu -- la sae -- cu --
+  lo -- rum, a --
+  men, a -- %145
+  men, a -- _
+  _ _
+  _ _
+  _ _
+  _ men, a -- %150
+  men,
+  a -- _ _
+  men, a -- men,
+  a -- men,
+  a -- men, %155
+  a --
+  men, a -- men,
+  a --
+  men, a -- men,
+  a -- men, a -- %160
+  men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- %165
+  men, a --
+  men, a --
+  men. %168 finis
+}

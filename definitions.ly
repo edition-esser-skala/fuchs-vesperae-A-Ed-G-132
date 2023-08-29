@@ -12,6 +12,9 @@ tempoLaudate = \tempoMarkup "Allegro moderato"
 tempoLaetatus = \tempoMarkup "Allegretto"
 tempoNisi = \tempoMarkup "Moderato"
 tempoIerusalem = \tempoMarkup "Allegro"
+tempoMagnificat = \tempoMarkup "Adagio"
+  tempoMagnificatB = \tempo 4 = 120
+  % tempoMagnificatB = \tempoMarkup "Allegro"
 
 
 \include "notes/fl.ly"

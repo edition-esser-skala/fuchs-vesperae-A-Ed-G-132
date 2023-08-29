@@ -740,3 +740,223 @@ IerusalemBassoLyrics = \lyricmode {
   a -- men, a -- men, a -- %75
   men, a -- men. %76 finis
 }
+
+MagnificatBasso = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \autoBeamOff \tempoMagnificat
+    r2 r4 r8 \mvTr b'\fE^\tuttiE
+    b8. b16 b8 b b8. b16 b8 r
+    f4\p f8 f f4 f
+    f4.\f f8 f4 r
+    R1 \noBreak %5
+    R \bar "||"
+    \time 3/4 \tempoMagnificatB R2.*5 %11
+    b4 b b
+    f2 f4
+    f4. f8 f4
+    b, b b' %15
+    b b b,8 b
+    b'4 b b
+    a2 a4
+    b4. b8 es, es
+    f2. %20
+    b,4 r r
+    R2.*20 %41
+    \mvTr d2\fE^\tuttiE d4
+    cis2 cis4
+    a'2 a4
+    d, d d %45
+    f2 f4
+    b, r b'
+    a2 a4
+    b( g) es
+    f2. %50
+    b,4 r r
+    R2.*17 %68
+    \mvTr g'4\fE^\tuttiE g g
+    fis4. fis8 fis4 %70
+    fis fis fis8 fis
+    g4 g g
+    f! f f
+    es!2 es4
+    c'2 b4 %75
+    as2 as4
+    b2.
+    es,4 r r
+    R2.*20 %98
+    \mvTr c4\fE^\tutti c c
+    h4. h8 h4 %100
+    h' h h
+    c c, r
+    f2 f4
+    es2 es4
+    g h, h %105
+    c4. c8 es4
+    f( g g,)
+    c r r
+    R2.*2 %110
+    \mvTr c'4\pE^\solo es, as
+    as4. g8 f4
+    e f g
+    b2 as4
+    f g as %115
+    as2 g4
+    g2 g4
+    g r g
+    a!4. a8 a4
+    b f b %120
+    b2 b4
+    a r r
+    R2.*3 %125
+    \mvTr b4.\fE^\tutti b8 b4
+    f f f
+    f2 f4
+    b, b' b
+    a4. a8 a4 %130
+    b b b8 b
+    a4 a a8 a
+    b8. b16 g8 g g g
+    g4 f f8 f
+    f8. f16 e4 c8 c %135
+    f f b,4( c)
+    f, r f'8 f
+    e8. e16 e8 e e e
+    f4 f f8 f
+    e8. e16 e4 e8 e %140
+    f es d4( a)
+    b r b'8 b
+    a8. a16 a4 a8 a
+    b4 b b
+    a r a %145
+    b d, es
+    c2 d4
+    b2 c4
+    a2 b4
+    d8 b f'2 %150
+    b,4 r r
+    R2.*2
+    r8 f' a16[ g f g] a8[ f]
+    b4 b b %155
+    b2.
+    b4 b b
+    b2.
+    b4 b b
+    es,8 es f2 %160
+    b,4 r b'
+    f r f
+    b, es( f)
+    b, r b'
+    f r f %165
+    b, es( f)
+    b, r f'
+    b, r r\fermata \bar "|." %168 finis
+  }
+}
+
+MagnificatBassoLyrics = \lyricmode {
+  Ma --
+  gni -- fi -- cat, ma -- gni -- fi -- cat
+  a -- ni -- ma me -- a
+  Do -- mi -- num.
+
+  Et ex -- ul -- %12
+  ta -- vit
+  spi -- ri -- tus
+  me -- us in %15
+  De -- o sa -- lu --
+  ta -- ri, in
+  De -- o
+  sa -- lu -- ta -- ri
+  me -- %20
+  o.
+
+  Qui -- a %42
+  fe -- cit
+  mi -- hi
+  ma -- gna, qui %45
+  po -- tens
+  est, et
+  san -- ctum
+  no -- men
+  e -- %50
+  ius.
+
+  Fe -- cit po -- %69
+  ten -- ti -- am %70
+  in bra -- chi -- o
+  su -- o, dis --
+  per -- sit su --
+  per -- bos
+  men -- te %75
+  cor -- dis
+  su --
+  i.
+
+  Su -- sce -- pit %99
+  Is -- ra -- el %100
+  pu -- e -- rum
+  su -- um,
+  re -- cor --
+  da -- tus
+  mi -- se -- ri -- %105
+  cor -- di -- ae
+  su --
+  ae.
+
+  Si -- cut lo -- %111
+  cu -- tus est
+  ad pa -- tres
+  no -- stros,
+  ad pa -- tres %115
+  no -- stros,
+  A -- bra --
+  ham et
+  se -- mi -- ni
+  e -- ius in %120
+  sae -- cu --
+  la.
+
+  Glo -- ri -- a %126
+  Pa -- tri et
+  Fi -- li --
+  o et Spi --
+  ri -- tu -- i %130
+  San -- cto, si -- cut
+  e -- rat in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in
+  sae -- cu -- la sae -- cu -- %135
+  lo -- rum, a --
+  men, in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in
+  sae -- cu -- la sae -- cu -- %140
+  lo -- rum, a --
+  men, et in
+  sae -- cu -- la sae -- cu --
+  lo -- rum, a --
+  men, a -- %145
+  men, a -- men,
+  a -- _
+  _ _
+  _ _
+  _ men, a -- %150
+  men,
+
+  a -- _ _ %154
+  men, a -- men, %155
+  a --
+  men, a -- men,
+  a --
+  men, a -- men,
+  a -- men, a -- %160
+  men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- %165
+  men, a --
+  men, a --
+  men. %168 finis
+}

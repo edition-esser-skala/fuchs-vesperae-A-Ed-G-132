@@ -411,3 +411,135 @@ IerusalemFagotto = {
     f4 c f r\fermata \bar "|." %76 finis
   }
 }
+
+MagnificatFagotto = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \tempoMagnificat
+    b8.\f b16 b8 b d f b b
+    b, b' b b b, b' b b
+    f2\p f4 f
+    f2\fE f8 r16. f,32 a16. a32 c16. c32
+    f8 r16. f,32 a16. a32 c16. c32 f16. f,32 a16. c32 f16. a32 c16. a32 \noBreak %5
+    f2~\p f8 f f f \bar "||"
+    \time 3/4 \tempoMagnificatB b,4\f r8 b d b \noBreak
+    f'4 c8 f a, c
+    f,4 f' f
+    b, b r %10
+    es f f
+    b, r8 b d b
+    f'2 f4
+    f2 f4
+    b, b' b %15
+    b, b' b
+    b, b' b
+    a2 a4
+    b2 es,4
+    f2 f4 %20
+    b r b
+    b r b
+    es,8 h c es f f
+    b,4 r r
+    R2.*14 %28
+    d4\fE r d
+    d r d %30
+    g8 b a g a a
+    d, e f e f d
+    cis h a h cis h
+    a h cis h cis a
+    d e f e f d %35
+    f4 f f
+    b2 b4
+    a r f
+    b g es
+    f2 f4 %40
+    b, r b'8. b16
+    b4 r b
+    es,8 h c es f f
+    b,4 r r
+    R2.*11 %65
+    g'4\fE r g
+    g r8 g b, b
+    c es d4 d
+    g8 a b a b g
+    fis e d e fis e %70
+    d e fis e fis d
+    g g, g' a b g
+    f!2 f4
+    es!2 es4
+    c'2 b4 %75
+    as?2 as4
+    b2 b4
+    es, r es
+    es r es
+    as b b, %80
+    es r r
+    R2.*17 %98
+    c8\fE d es d es c
+    h a g a h a %100
+    g a h a h g
+    c4 c8 d es c
+    f g as g as f
+    es d c d es c
+    g'4 g, g %105
+    c2 es4
+    f g g
+    c, r c
+    c r c
+    f g g %110
+    c, r r
+    R2.
+    c\p
+    f
+    b,! %115
+    es
+    R2.*2
+    f2.
+    f %120
+    R
+    r4 f\f f
+    f f f
+    f r r
+    R2. %125
+    b,2\fE d8 b
+    f'4 f f
+    f2.
+    b4 b b
+    a8 f a f a f %130
+    b4 b b
+    a8 f a f a f
+    b4 g2
+    g4 f2
+    f4 e c8 e %135
+    f4 b, c
+    f, f' f
+    e8 c e c e c
+    f4 f f
+    e8 c e c e c %140
+    f es d4 a
+    b b' b
+    a8 f a f a f
+    b4 b b
+    a8 f a f a f %145
+    b4 r r
+    R2.*2
+    r4 r b
+    d,8 b f'4 f %150
+    b, r r
+    R2.*3
+    b'2. %155
+    b4 b b
+    b2.
+    b4 b b
+    b b b
+    es, f f %160
+    b, r b
+    f' a16( g f g) a8 f
+    b4 es, f
+    b, r b'
+    f a16( g f g) a8 f %165
+    b4 es, f
+    b, r f'
+    b, r r\fermata \bar "|." %168 finis
+  }
+}

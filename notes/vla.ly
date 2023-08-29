@@ -506,3 +506,178 @@ IerusalemViola = {
     f4 c c r\fermata \bar "|." %76 finis
   }
 }
+
+MagnificatViola = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 4/4 \tempoMagnificat
+    b8.\f b16 b8 b d f b b,
+    b b b b b b b b
+    r16 c8\p c c c16 r b8 b b b16
+    r c8\f c c c16 c8 r16. f,32 a16. a32 c16. c32
+    f8 r16. f,32 a16. a32 c16. c32 f16. f,32 a16. c32 f16. a32 c16. a32 \noBreak %5
+    f4 r r2 \bar "||"
+    \time 3/4 \tempoMagnificatB b,4\f r8 b d b \noBreak
+    f' f c f a, c
+    f,4 f' f,
+    b8 b b b d d %10
+    es es f f f, f
+    b4 r8 b d b
+    f' f c f a, c
+    f,4 f' f
+    b, b8 b b b %15
+    b' b b, b b b
+    b' b b, b b b
+    c' c c c c c
+    b b, b b es es
+    f f f f es es %20
+    d4 b b
+    b r b
+    es8 h c es-! f f,
+    b4 r r
+    b2.\p %25
+    d
+    d
+    c
+    c4 c r
+    c2.~ %30
+    c2 c4
+    c f f,
+    f' f r
+    g2.
+    a %35
+    a,
+    a4. g8 f a
+    g g a4. g8
+    f4 r d'\f
+    d r d8 d %40
+    g b a g a a,
+    d e f e f d
+    cis h a h cis h
+    a h cis h cis a
+    d e f e f d %45
+    f4 f, f'
+    b, b' b,
+    a a' a,
+    b8 b' g g es es
+    f4 r8 f f, f' %50
+    b,4 r b
+    b r b
+    es8 h c es f f,
+    b b16 c d8 c b a
+    g4 r r %55
+    g\p r r
+    d' r r
+    d r d
+    g( f!) f
+    e( d) d %60
+    c-! c( b)
+    b2 b4
+    g' g g
+    g2 r4
+    d r d %65
+    g, r g\f
+    g' r8 g b, b
+    c es d c d d,
+    g a b a b g
+    fis' e d e fis e %70
+    d e fis e fis d
+    g g, g' a b g
+    as as as as as as
+    g g g g g g
+    es es es es es es %75
+    es es es es es es
+    g4 es8 g f as
+    g4 r es
+    es r es
+    as b as %80
+    g es\p es
+    es r es
+    b r b
+    d( es) b
+    r8 f' f f f f %85
+    r f f f f f
+    c c c c c c
+    c4 r r
+    f2 r4
+    b,2 r4 %90
+    g'2 r4
+    c,2 r4
+    c r c
+    c r c
+    d r d %95
+    c r c
+    f8 as g4 g,
+    c8 es16\f f g8 f es d
+    c d es d es c
+    h a g a h a %100
+    g a h a h g
+    c c, c' d es c
+    f g as g as f
+    es d c d es c
+    g'4 g, g %105
+    c8 c c c es es
+    f f g g g, g
+    g4 r c
+    c r c
+    f g g, %110
+    c r c\p
+    h2.
+    c~
+    c
+    b!~ %115
+    b
+    r8 g g g g g
+    r g g g g g
+    es'\fp es es es es es
+    d\fp f f f f f %120
+    f f f f e e
+    f4 f\f f
+    f f, f
+    f r f\pE
+    f f' f %125
+    b,\f r8 b d b
+    f' f c f a, c
+    f,4 f' f,
+    b8 b' b b b b
+    a f a f a f %130
+    b b, b b b b
+    a f a f a f
+    b b g g' g g
+    g g f f f f
+    f f e e c c %135
+    f f, b b c c
+    f f, f' f f f
+    e c e c e c
+    f f f f f f
+    e c e c e c %140
+    f es d d a a
+    b b' b b b b
+    a f a f a f
+    b b, b' b b b
+    a f a f a f %145
+    b b d, d es es
+    c c c c d d
+    b b b b c c
+    a f' f f f d
+    f8 f f4 f %150
+    b, r r
+    R2.
+    r8 b d16 c b c d8 b
+    f'2 f4
+    f8 d b4 b %155
+    b r b
+    b r b
+    b8 b b b b b
+    b4 b' b,
+    es8 es f4 f %160
+    d r b
+    f'8 f a16 g f g a8 f
+    b b, es es f f
+    b,4 r b
+    f'8 f a16 g f g a8 f %165
+    b b, es es f f
+    f4 r f
+    f r r\fermata \bar "|." %168 finis
+  }
+}

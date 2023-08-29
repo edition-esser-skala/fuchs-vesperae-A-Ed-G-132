@@ -404,3 +404,138 @@ IerusalemClarinettoI = {
     f4 e f r\fermata \bar "|." %76 finis
   }
 }
+
+MagnificatClarinettoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoMagnificat
+    r2 r4 r8 c'\f
+    e4 c8 c f4 a,8 a
+    R1
+    r2 g'~\fE
+    g1 \noBreak %5
+    g4 h,16(\pE c d e) f( g a g) g( f e d) \bar "||"
+    \time 3/4 \tempoMagnificatB e4\f r e \noBreak
+    d f f
+    f2.
+    f8. g16 e4 r %10
+    r e f
+    e e e
+    g2.
+    f
+    f4 e g %15
+    a g g
+    a g e
+    g2 f4
+    e r r
+    c2 d4 %20
+    c r c8. c16
+    c4 e g
+    r r8 d c h
+    c4 r r
+    R2.*14 %38
+    e4\fE r g8. g16
+    g4 r r %40
+    R2.
+    g
+    fis4 h h
+    a2.
+    g %45
+    f!2 f4
+    e e e
+    g2.
+    e4 f a
+    g16( f e f) g8 e f d %50
+    e4 r e8. e16
+    e4 r e
+    r r8 d c h
+    c4 r r
+    R2.*11 %65
+    e4\fE r e8. e16
+    e2 e4
+    f e gis
+    a c, c
+    e2. %70
+    d
+    d4 c c
+    e2 e4
+    f2.
+    f %75
+    d2 f4
+    f2 e4
+    f r f8. f16
+    a4 r c,
+    d8 g c, f^\critnote e4 %80
+    f r f\p
+    a r a
+    b2.~
+    b4 a r
+    f2. %85
+    e
+    fis
+    g4 r r
+    R2.*10 %98
+    f2.\f
+    e4 a a %100
+    g2.~
+    g4 f r
+    d2.
+    d4 d d
+    g2. %105
+    f2 a4
+    r f g
+    f r f8. f16
+    f4 r f
+    R2.*3 %112
+    fis4(\p g a)
+    a2 b4
+    g a b %115
+    b2 a4
+    R2.*2
+    f2.
+    e %120
+    R
+    r4 g\f h
+    g g h
+    g r r
+    R2. %125
+    e\fE
+    d4 g g
+    f2.
+    e4 e e
+    g2 f4 %130
+    e e e
+    g2 f4
+    e r r
+    R2.*3 %136
+    r4 g g
+    a2.
+    g4 g g
+    a2. %140
+    g4 g f
+    e e e
+    g2 f4
+    e e e
+    f2 f4 %145
+    e r r
+    R2.*2
+    r4 r g~
+    g e d %150
+    c r r
+    R2.*3
+    e2. %155
+    g4 g g
+    a2.
+    f4 f f
+    e2 e4
+    a8 f e4 d %160
+    e e e
+    f2.
+    e4 d d
+    e e e
+    f2. %165
+    e4 d d
+    e r f
+    e r r\fermata \bar "|." %168 finis
+  }
+}

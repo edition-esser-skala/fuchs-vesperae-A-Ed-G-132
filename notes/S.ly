@@ -832,3 +832,233 @@ IerusalemSopranoLyrics = \lyricmode {
   a -- men, a -- men, a -- %75
   men, a -- men. %76 finis
 }
+
+MagnificatSoprano = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \autoBeamOff \tempoMagnificat
+    r2 r4 r8 \mvTr b'\f^\tutti
+    d8. d16 b8 b es8. b16 g8 r
+    a4\p a8 a b4 b
+    b4.\f b8 a4 r
+    R1 \noBreak %5
+    R \bar "||"
+    \time 3/4 \tempoMagnificatB R2.*5 %11
+    b4 b d
+    f2 c4
+    a4. a8 c4
+    c b d %15
+    es d d8 d
+    es4 d d
+    f2 es4
+    d4. d8 c c
+    b2( \grace d8 c4) %20
+    b r r
+    R2.*2
+    \mvTr b4\pE^\solo d f,
+    f2 f4 %25
+    fis fis fis
+    g2 g4
+    b g c
+    b a r
+    f'2 c4 %30
+    c2 b4
+    a f' e8([ d)]
+    d4 c c
+    cis2 cis4
+    d2 a4 %35
+    a2 g'4
+    f4. e8 d4~
+    d8 d d4( cis)
+    d r r
+    R2.*2 %41
+    \mvTr d2\fE^\tutti a4
+    a2 a4
+    cis2 cis4
+    d a f' %45
+    f2 a,4
+    b r d
+    f2 c4
+    d( es) g
+    b,2( \grace d8 c4) %50
+    b r r
+    R2.*17 %68
+    \mvTr b4\fE^\tutti b b
+    d4. d8 d4 %70
+    c c c8 c
+    c4 b b
+    b b b
+    b2 g4
+    as2 g4 %75
+    c2 es4
+    es2( d4)
+    es r r
+    R2.*20 %98
+    \mvTr es4\fE^\tutti es es
+    g4. g,8 g4 %100
+    f' f f
+    f es r
+    c2 c4
+    c2 c4
+    f f f %105
+    es4. es8 c4
+    c2( h4)
+    c r r
+    R2.*17 %125
+    \mvTr b4.\fE^\tutti b8 d4
+    f f c
+    a2 a4
+    b b d
+    f4. f8 es4 %130
+    d d d8 d
+    es4 es es8 es
+    d8. d16 es8 es es es
+    c4 d d8 d
+    b8. b16 c4 c8 b %135
+    a a g2
+    f4 r a8 a
+    b8. b16 b8 b b b
+    a4 a a8 a
+    b8. b16 b4 b8 b %140
+    a a b4( c)
+    d r d8 d
+    f8. f16 f4 es8 es
+    d4 d d
+    es r es %145
+    d f es~
+    es2 d4~
+    d2 c4~
+    c2 b4~
+    b8 b b4( a) %150
+    b8 b d16[ c b c] d8[ b]
+    f'2 es4
+    d d d
+    c2.
+    d4 b b %155
+    d2.
+    es4 es es
+    a,!2.
+    b4 d b~
+    b8 c b4( a) %160
+    b r d
+    c r c
+    d c2
+    b4 r d
+    c r c %165
+    d c2
+    b4 r c
+    b r r\fermata \bar "|." %168 finis
+  }
+}
+
+MagnificatSopranoLyrics = \lyricmode {
+  Ma --
+  gni -- fi -- cat, ma -- gni -- fi -- cat
+  a -- ni -- ma me -- a
+  Do -- mi -- num.
+
+  Et ex -- ul -- %12
+  ta -- vit
+  spi -- ri -- tus
+  me -- us in %15
+  De -- o sa -- lu --
+  ta -- ri, in
+  De -- o
+  sa -- lu -- ta -- ri
+  me -- %20
+  o.
+
+  Qui -- a re -- %24
+  spe -- xit %25
+  hu -- mi -- li --
+  ta -- tem
+  an -- cil -- lae
+  su -- ae.
+  Ec -- ce %30
+  e -- nim
+  ex hoc be --
+  a -- tam me
+  di -- cent
+  o -- mnes, %35
+  o -- mnes
+  ge -- ne -- ra --
+  ti -- o --
+  nes.
+
+  Qui -- a %42
+  fe -- cit
+  mi -- hi
+  ma -- gna, qui %45
+  po -- tens
+  est, et
+  san -- ctum
+  no -- men
+  e -- %50
+  ius.
+
+  Fe -- cit po -- %69
+  ten -- ti -- am %70
+  in bra -- chi -- o
+  su -- o, dis --
+  per -- sit su --
+  per -- bos
+  men -- te %75
+  cor -- dis
+  su --
+  i.
+
+  Su -- sce -- pit %99
+  Is -- ra -- el %100
+  pu -- e -- rum
+  su -- um,
+  re -- cor --
+  da -- tus
+  mi -- se -- ri -- %105
+  cor -- di -- ae
+  su --
+  ae.
+
+  Glo -- ri -- a %126
+  Pa -- tri et
+  Fi -- li --
+  o et Spi --
+  ri -- tu -- i %130
+  San -- cto, si -- cut
+  e -- rat in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in
+  sae -- cu -- la sae -- cu -- %135
+  lo -- rum, a --
+  men, in prin --
+  ci -- pi -- o et nunc et
+  sem -- per et in
+  sae -- cu -- la sae -- cu -- %140
+  lo -- rum, a --
+  men, et in
+  sae -- cu -- la sae -- cu --
+  lo -- rum, a --
+  men, a -- %145
+  men, a -- _
+  _
+  _
+  _
+  men, a -- %150
+  men, a -- _ _
+  _ _
+  men, a -- men,
+  a --
+  men, a -- men, %155
+  a --
+  men, a -- men,
+  a --
+  men, a -- _
+  men, a -- %160
+  men, a --
+  men, a --
+  men, a --
+  men, a --
+  men, a -- %165
+  men, a --
+  men, a --
+  men. %168 finis
+}

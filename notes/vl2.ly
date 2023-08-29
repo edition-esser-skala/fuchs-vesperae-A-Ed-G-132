@@ -504,3 +504,178 @@ IerusalemViolinoII = {
     f4 <e g,> <f a,> r\fermata \bar "|." %76 finis
   }
 }
+
+MagnificatViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoMagnificat
+    b8.\f b16 b8 b d f b d,
+    f8. f16 d8 d g8. g16 g8 es
+    r16 es8\p es es es16 r d8 d d d16
+    r <e g,>8\f q q q16 <f a,>8 r16. f32 a16. a32 c16. c32
+    f8 r16. f,32 a16. a32 c16. c32 f16. f,32 a16. c32 f16. a32 c16. a32 \noBreak %5
+    f4 r r2 \bar "||"
+    \time 3/4 \tempoMagnificatB r8 d\f b d f b \noBreak
+    a4 c, c
+    c es4. c8
+    c4 b8 d16( es f g a b) %10
+    g es es c b f d b' c,8 a'
+    b d b d f b
+    a4 <es f,> q
+    q c'16 b a b c8 c,
+    c4 d8 b d b
+    es b d b d b
+    es b d b d b
+    \appoggiatura g'16 f8 e16 f c8 f es f
+    d b'16( a g f es d) c es d c
+    b f d f b8 d f a, %20
+    b d, f16( es d es) f8 d
+    \once \slurDashed d'16( c b c) d8 b d d
+    es g, g es d c
+    d4 r r
+    d2.\p %25
+    c
+    b
+    g'2 g4
+    g f r
+    a,2. %30
+    g2 g'4
+    f8 a f a c b
+    b4 a r
+    g2.^\critnote
+    f %35
+    e
+    f4. g8 a f
+    b8. g16 f8 d' e, cis'
+    d, f\f \once \slurDashed a16( g f g) a8 f
+    \once \slurDashed f'16( e d e) f8 d d d %40
+    d8. d16 f8 d' e, cis'
+    d,4 r8 a \once \slurDashed a16( d f a)
+    e4 <a a,> q
+    q r8 a, a16( cis e a)
+    f4 r8 a, \once \slurDashed a16( d f a) %45
+    es!4 \once \slurDashed c'16( b a b) c8 es,
+    d4 d'16( c b c) d8 d,
+    es4 c'16( b a b) c8 es,
+    d b es b g' b
+    d,16( c b c) d8 b c a %50
+    b d, \once \slurDashed f16( es d es) f8 d
+    \once \slurDashed d'16( c b c) d8 b d d
+    g g, g es d es
+    d b16 c d8 c b a
+    g4 r r %55
+    r8 b'\p d16( c b c) d8 b
+    r a c16( b a b) c8 a
+    b4 r b
+    b( c b)
+    g( a g) %60
+    es! es f
+    f2 es4
+    f f f
+    es2 r4
+    r8 b! d b c a %65
+    b b\f d16( c b c) d8 b
+    b'16( a g a) b8 g g g
+    g c b g' a, fis'
+    g,4 r8 d' d16( g b d)
+    a4 <d d,> q %70
+    q r8 d, \once \slurDashed d16( fis a d)
+    c d c d b8 b, b' b
+    \once \slurDashed d16( c b c) d8 b f! d
+    es' g,16 as b8 g es es'
+    as,16 b c b as8 es g es %75
+    c'16 b as b c8 as es' c
+    b16 b es es g, g b b as as f f
+    es8 g,, \once \slurDashed b16( as g as) b8 g
+    g'16( f es f) g8 es b' g
+    c f g, es' f, d' %80
+    es4 g,\p g
+    es r es
+    f r d
+    f( es) es
+    r8 es es es es es %85
+    r d d d d d
+    e e e e e e
+    f f f( g a b)
+    c a \once \slurDashed c16( b a b) c8 a
+    r b d es f d %90
+    r h d16( c h c) d8 h
+    r c es f g es
+    c4 r c,
+    c r c
+    g' r g %95
+    g es c'~
+    c g4. f8
+    es es16\f f g8 f es d
+    c4 r8 g' g16( c es g)
+    d4 <g g,> q %100
+    q r8 g, g16( h d f)
+    g,8 f' es es16 d c8 c'
+    as4 r8 c, c16( f as c)
+    g4 r8 c, c16( es g c)
+    h8 d, d'16( c h c) d8 f, %105
+    es16 d c h \once \slurDashed c( d es f g a! h c)
+    as g as f es8 c' d, h'
+    c, es, \once \slurDashed g16( f es f) g8 es
+    \once \slurDashed es'16( d c d) es8 c es es
+    f as, g f es d %110
+    es4 r es\p
+    d2.
+    c4 d e
+    g( e f)
+    d es f~ %115
+    f d es
+    r8 d d d d d
+    r c c c c c
+    c\fp c c c c c
+    d\fp d d d d d %120
+    c c c c c c
+    c4 a'\f c
+    a f' a
+    f \once \slurDashed f,8(\p g a b)
+    c4~ c16 d c h c8 a %125
+    b\f d b d f b
+    a4 <es f,> q
+    q~ es16 d c d es8 f
+    d \slurDashed b16( c d es f g a b c d)
+    c4 <es, f,> q %130
+    <d f,>8 b16( c d es f g a b c d)
+    c4 <es, f,> q
+    d16( b c d es f es d) es8 b
+    c16( a b c d es d c) d8 a
+    b16( g a b c d c h) c8 b %135
+    a f' g, f' g, e'
+    f f,16( g a b c d e f g a)
+    g4 b, b
+    a8 f16( g a b c d e f g a)
+    g8 b, b b b b %140
+    a16 f g a b f b f c' f, c' f,
+    d'8 b16( c d es f g a b c d)
+    c4 <es, f,> q
+    <d f,>8 b16( c d es f g a b c d) \slurSolid
+    c8 es, es es es es %145
+    d d16( es f g a b) g8 g,
+    r \slurDashed es'16( d es f g a) f8 f,
+    r d'16( c d es f g) es8 es,
+    r c'16( h c d es f) d8 b'
+    f b b, d c a %150
+    b4 r r
+    r8 f a16( g f g) a8 f
+    b4 b b
+    b a a
+    b8 b d16( c b c) d8 b %155
+    r d f16( es d es) f8 d
+    es g, b16( as g as) b8 g
+    r c es16( d c d) es8 c
+    r d f16( es d es) f8 d
+    g es d d c a %160
+    b d f16( es d es) f8 d
+    c4 c c
+    d8 b' c, b' c, a'
+    b, d f16( es d es) f8 d \slurSolid
+    c4 c c %165
+    d8 b' c, b' c, a'
+    b,4 r <f c' a'>
+    <f d' b'> r r\fermata \bar "|." %168 finis
+  }
+}
