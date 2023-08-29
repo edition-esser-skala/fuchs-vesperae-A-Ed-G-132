@@ -115,7 +115,7 @@
     }
   }
   \bookpart {
-    \section "2" "Laudate pueri Dominum"
+    \section "2" "Laudate pueri"
     \addTocEntry
     \score { %\articulate
       <<
@@ -203,7 +203,7 @@
     }
   }
   \bookpart {
-    \section "3" "Laetatus sum"
+    \section "3" "Lætatus sum"
     \addTocEntry
     \score { %\articulate
       <<

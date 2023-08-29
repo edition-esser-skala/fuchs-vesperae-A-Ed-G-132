@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "vl 1")
+#(define option-instrument-name "fl")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \DixitViolinoI
+          \set Staff.instrumentName = "Flauto"
+          \DixitFlauto
         }
       >>
     }
@@ -23,7 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \LaudateViolinoI }
+        \new Staff { \LaudateFlauto }
       >>
     }
   }
@@ -32,25 +32,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \LaetatusViolinoI }
+        \new Staff { \LaetatusFlauto }
       >>
     }
-  }
-  \bookpart {
-    \section "4" "Nisi Dominus"
-    \addTocEntry
-    \score {
-      <<
-        \new Staff { \NisiViolinoI }
-      >>
-    }
+    \tacet "section" "Nisi Dominus"
   }
   \bookpart {
     \section "5" "Lauda Ierusalem"
     \addTocEntry
     \score {
       <<
-        \new Staff { \IerusalemViolinoI }
+        \new Staff { \IerusalemFlauto }
       >>
     }
   }
@@ -59,7 +51,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \MagnificatViolinoI }
+        \new Staff { \MagnificatFlauto }
       >>
     }
   }

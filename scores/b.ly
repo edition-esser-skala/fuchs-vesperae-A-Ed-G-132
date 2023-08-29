@@ -6,24 +6,60 @@
 
 \book {
   \bookpart {
-    \section "1" "First"
+    \section "1" "Dixit Dominus"
     \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
         \new Staff {
           \set Staff.instrumentName = "Bassi"
-          \xxxOrgano
+          \DixitOrgano
         }
       >>
     }
   }
   \bookpart {
-    \section "2" "Second"
+    \section "2" "Laudate pueri"
     \addTocEntry
     \score {
       <<
-        \new Staff { \yyyOrgano }
+        \new Staff { \LaudateOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Lætatus sum"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \LaetatusOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "4" "Nisi Dominus"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \NisiOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Lauda Ierusalem"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \IerusalemOrgano }
+      >>
+    }
+  }
+  \bookpart {
+    \section "6" "Magnificat"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \MagnificatOrgano }
       >>
     }
   }

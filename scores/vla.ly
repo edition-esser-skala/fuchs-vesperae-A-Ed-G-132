@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "vla")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,10 +12,9 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Organo"
-          \DixitOrgano
+          \set Staff.instrumentName = "Viola"
+          \DixitViola
         }
-      \new FiguredBass { \DixitBassFigures }
       >>
     }
   }
@@ -24,8 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \LaudateOrgano }
-        \new FiguredBass { \LaudateBassFigures }
+        \new Staff { \LaudateViola }
       >>
     }
   }
@@ -34,8 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \LaetatusOrgano }
-        \new FiguredBass { \LaetatusBassFigures }
+        \new Staff { \LaetatusViola }
       >>
     }
   }
@@ -44,8 +41,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \NisiOrgano }
-        \new FiguredBass { \NisiBassFigures }
+        \new Staff { \NisiViola }
       >>
     }
   }
@@ -54,8 +50,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \IerusalemOrgano }
-        \new FiguredBass { \IerusalemBassFigures }
+        \new Staff { \IerusalemViola }
       >>
     }
   }
@@ -64,8 +59,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \MagnificatOrgano }
-        \new FiguredBass { \MagnificatBassFigures }
+        \new Staff { \MagnificatViola }
       >>
     }
   }
